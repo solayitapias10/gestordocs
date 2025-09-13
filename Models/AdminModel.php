@@ -399,39 +399,34 @@ class AdminModel extends Query
         return $metricas;
     }
 
-    // MÉTODOS DE PAGINACIÓN PARA EL HOME
-
-    // Obtiene las carpetas principales paginadas para el dashboard de administrador.
-    public function getPaginatedCarpetasAll($page = 1, $limit = 6)
-    {
-        $offset = ($page - 1) * $limit;
-        $sql = "SELECT id, nombre, fecha_create, estado, elimina, id_usuario, id_carpeta_padre 
-                FROM obtener_carpetas_principales_paginadas(?, ?)";
-        return $this->selectAll($sql, [$limit, $offset]);
-    }
 
     // Obtiene el total de carpetas principales para calcular la paginación.
-    public function getTotalCarpetas()
+        public function getTotalCarpetas($id_usuario)
     {
-        $sql = "SELECT COUNT(*) as total FROM carpetas WHERE id_carpeta_padre IS NULL AND estado = 1";
-        $resultado = $this->select($sql);
+        $sql = "SELECT total FROM obtener_total_carpetas_usuario(?)";
+        $resultado = $this->select($sql, [$id_usuario]);
         return $resultado['total'] ?? 0;
     }
 
-    // Obtiene los archivos más recientes paginados para el dashboard de administrador.
-    public function getPaginatedArchivosRecientesAll($page = 1, $limit = 10)
+
+    public function getCarpetasPaginado($id_usuario, $page = 1, $limit = 10)
     {
         $offset = ($page - 1) * $limit;
-        $sql = "SELECT id, nombre, tipo, fecha_create, estado, elimina, id_carpeta, id_usuario, tamano 
-                FROM obtener_archivos_recientes_paginados(?, ?)";
-        return $this->selectAll($sql, [$limit, $offset]);
+        $sql = "SELECT id, nombre, fecha_create, estado, elimina, id_usuario, id_carpeta_padre FROM obtener_carpetas_paginado(?, ?, ?)";
+        return $this->selectAll($sql, [$id_usuario, $limit, $offset]);
     }
 
-    // Obtiene el total de archivos recientes para calcular la paginación.
-    public function getTotalArchivosRecientes()
+    public function getArchivosPaginado($id_usuario, $page = 1, $limit = 15)
     {
-        $sql = "SELECT COUNT(*) as total FROM archivos WHERE estado = 1";
-        $resultado = $this->select($sql);
+        $offset = ($page - 1) * $limit;
+        $sql = "SELECT id, nombre, tipo, fecha_create, id_carpeta, tamano FROM obtener_archivos_paginado(?, ?, ?)";
+        return $this->selectAll($sql, [$id_usuario, $limit, $offset]);
+    }
+
+    public function getTotalArchivos($id_usuario)
+    {
+        $sql = "SELECT total FROM obtener_total_archivos_usuario(?)";
+        $resultado = $this->select($sql, [$id_usuario]);
         return $resultado['total'] ?? 0;
     }
 }

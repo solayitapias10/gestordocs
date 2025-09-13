@@ -1,0 +1,4143 @@
+[2025-09-12 07:09:24] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 07:09:24] Se encontraron 3 usuarios para procesar.
+[2025-09-12 07:09:24] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 07:09:24] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:09:24] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:09:25] BUSCAR_CORREOS: ¡Éxito! Se encontraron 2 mensajes.
+[2025-09-12 07:09:25] Se encontraron 2 correos con facturas.
+[2025-09-12 07:09:25] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 07:09:25] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 07:09:25] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:09:25] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ-vW3N363C3w9nkCq6iZ6eTRwXLiTqeuNKt1JzCGH2cM42XDdXy3g38wteBtPef-_AaQ9qISOCYlmrPVcJ45JI6BvcG4v-icE_UTgOpxnYHdgptwCXsI-lzy2XtAHjmfcm5lkGBrd_UdxzSV3J-jqYX30APLcrn-DTsajeHypFEajdeDK6CUEHpl3l_LmWUWWrBzeoXRJungKUhuUI_vVjUWT5tgvdZPVi-dEe2ddfVaq3FSuMESdDaX3TpLLrT8NGtxQ3C7jXjpzhUjzMdtsrGEOwBLtsjnTR9ROhO0O7bNSDfVVnUZEyePmNNqYgiMR58jcs476zgysvaig7tfXhDSlt_Dy8jVZEV3iULBsZKAKGR7LbboQiH-sDMxDNUYA5531i41K68kc90
+[2025-09-12 07:09:26]  -> Adjunto 'FACTURA.pdf' guardado físicamente.
+[2025-09-12 07:09:26]  -> Adjunto registrado en la base de datos con su huella digital.
+[2025-09-12 07:09:26] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:09:26] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:09:26] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 07:09:26] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:09:27] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9EQQV1LtFVo_ZhidNvfNuTXMuLnYz6RTGtHuLEe79OqZzppllOCrizW_hSto-6-LZFuuGCOZZpB9aCRuNKYdkCleu-FZnT0sDLH5hQhU58T4Y0bObVSoxRP_FyGEMfKiuHyvN1PJvE7zhseMb8hO97DtEarhglDZdRA_hzLdhPdT9951sHAb1eI1-yxBvXvxFQ-FvAS9P8kRPnitDPSqcPL_cQy3EJJbPlk-l7chtvRWyFP_DMi7MbadYfccrS9kSUW1d7KQkNRaedC3Qwos7qpJHE_emR0ydmHibMViQ36vzwwtVMlTm-I8RK7qQZnJzU988whs8-55qCDfPijdpV302LmDrRkaMT8LUCGueoTm8DqMtkMbWwBhQNQyGylYWMlgQxgylt0yUN
+[2025-09-12 07:09:27]  -> Adjunto 'FACTURA.pdf' guardado físicamente.
+[2025-09-12 07:09:27]  -> Adjunto registrado en la base de datos con su huella digital.
+[2025-09-12 07:09:27] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:09:28] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:09:28] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 07:09:28] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 07:09:28] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:09:28] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 07:09:28] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 07:09:28] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 07:09:28] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:09:28] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias1@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:09:28] BUSCAR_CORREOS: ¡Éxito! Se encontraron 1 mensajes.
+[2025-09-12 07:09:28] Se encontraron 1 correos con facturas.
+[2025-09-12 07:09:28] Usando carpeta existente 'Facturas de Gmail' con ID: 31.
+[2025-09-12 07:09:28] Procesando mensaje ID: 1993c77f19dfc164
+[2025-09-12 07:09:28] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:09:29] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9JAgTfg4XYG-4Gz3d8pY527wTYfTbjvQsWrH4TE0VRMsV9NBqLMaSMwRo8DXQ2c2NKSLJ0URNz5pkTHt2G8TVNFe6yhwlaeLbMcEXl9aINiooLyqsEPxNjzYTb26KQP5DAoRKkgLhqVeoO4OwxdgDu2JjUHXY8EYB7DPNwjruZBdI_Upwy0wecBcEbU5-JAD5Wz6ODY669e_beJQdNU83hIuKeqDEgNcwQoDm17dnT9TnQjnRS-nOI2g25b4g8uDJA5X5LfUQCtkrhH0cYvSyFa2BeVUltjW9I5OECm-6UZt7G1Ev6cFxoIPw
+[2025-09-12 07:09:29]  -> Adjunto 'FACTURA.pdf' guardado físicamente.
+[2025-09-12 07:09:29]  -> Adjunto registrado en la base de datos con su huella digital.
+[2025-09-12 07:09:29] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:09:29] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993c77f19dfc164: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:09:29] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 07:09:33] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 07:09:33] Se encontraron 3 usuarios para procesar.
+[2025-09-12 07:09:33] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 07:09:33] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:09:33] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:09:33] BUSCAR_CORREOS: ¡Éxito! Se encontraron 2 mensajes.
+[2025-09-12 07:09:33] Se encontraron 2 correos con facturas.
+[2025-09-12 07:09:33] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 07:09:33] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 07:09:33] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:09:34] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ8Rn6Lq54ya5i0tTF6MP7b0fwJtgsHyfahxyJlIpdy1SNGJO_505MtmKWkPr6jewgF2IHC7joWbUGxzdowCbX9-cKZI6X8HP29GMSkZmbABj80j3yZLfARFAEYihLPjmF50JCe-8wbRi9GBytxLWtXQV87K9EZQpClO8A7U_yzgNiyNPRdntr6YyxZqvIoVu8KntbtW12IGZ_8Bi4TYpOeuHdJ_Xrq283-23HHd2wvRMBOWLGEKqp4h2_xKbqplIacPCnQtqIZZ1-I3PUdyPCn3zLMXDyAVIiePt15nUO4BJ3dBKyXnWNKsCnEPNfFPryjcfBL3HVW7mlitC_-b76lmM3RUDCLH-7b7J4Lc9232UJSBs9rd5KBlpe0SxLa2vCerddOBp7bP2tOx
+[2025-09-12 07:09:34]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:09:34] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:09:35] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:09:35] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 07:09:35] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:09:35] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9GUJy8el3aG44Ebq_RcBKnZeHip7iGMh7scCSuQZ0E9hWSWPZLIq0jJkiQZOY5_qTtsb2eQrJ7HtnqSB03oGTGMXaqUt0IaYJ2ydGsDfmKjJba6y3iWtdc8N9xiMybuR2cAw0MLe62oYPgCOwnp9nF4rGoITV4dhjas4aZnAJ9otPyJTdm3MVWh2f6zqeX2WLoRii3qQCfBeS3dh1LiGw4yI4O88zJPDHkEDzfzk827DdjBnfXgtQtdKIGbR3OvAA1GnPNnkp4dGxgifv32iIXjPf5SxHO6BNS0TYDrwsJZY8jzvKz8vkHu51v1qyBCka-1arxsU9s_hsDTBFTY9urOwpPKXXMGEZG-X1f5RJFMuMIPbwLCz5_CBl6r6VRsBCrr3F5ISUjp8Vm
+[2025-09-12 07:09:35]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:09:35] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:09:36] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:09:36] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 07:09:36] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 07:09:36] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:09:36] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 07:09:36] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 07:09:36] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 07:09:36] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:09:36] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias1@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:09:37] BUSCAR_CORREOS: ¡Éxito! Se encontraron 1 mensajes.
+[2025-09-12 07:09:37] Se encontraron 1 correos con facturas.
+[2025-09-12 07:09:37] Usando carpeta existente 'Facturas de Gmail' con ID: 31.
+[2025-09-12 07:09:37] Procesando mensaje ID: 1993c77f19dfc164
+[2025-09-12 07:09:37] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:09:37] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9ydnKBl7ZU3LpcUA1Q0WJXjD5y7WQkYhWVD1e0zajw334Q8Fd-ipzEISi7AtgYwFj4SUQHuRNZVwQHPrwmJnrGpg5mz_TP4QtHFkqNvqyxAFnGKWM7v09179mNESMVKZtZfueVDDRzshRm4MnzPjXmqCvZ6jDgSLilJ6bLVVvzt8XKCPwpATZadkrmJnrW5r--prkbrcJrfhWhUA_M01rIiiP8ncNzU937nG51gAX9kDQV3ixxF8XFG-bFBNQeTY0anjK8F3fp_XyqY5aT0XRzxB0ZeL3uiTfpvVDgBfWCBQOlbJEAxUaxbso
+[2025-09-12 07:09:37]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:09:37] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:09:38] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993c77f19dfc164: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:09:38] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 07:10:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 07:10:30] Se encontraron 3 usuarios para procesar.
+[2025-09-12 07:10:30] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 07:10:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:10:30] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:10:30] BUSCAR_CORREOS: ¡Éxito! Se encontraron 2 mensajes.
+[2025-09-12 07:10:30] Se encontraron 2 correos con facturas.
+[2025-09-12 07:10:30] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 07:10:30] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 07:10:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:10:31] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_gXa3b0iSSUDnBSg0geGp1lSz3topjPHqtITIYThyVRi1Yn8dHfBrRsP4G23C4Qx1t3WZzcvOnM0LX1H8MDl1lWSJExTIYIXLne6QcmV1JkVA-_GLIMSIN-t5wVzvEQdZXdlJli3g0ozMOZZv_vxXjB_UY1bkyOMzxMpHqq9HcHVwHVTAt_vCxaL0GZs3bK7pxUkdcMvi9Rx4gctCZU4t-WBkiKkej5gIHjnNcKytMWpkIxP9ZeVvPsq5feWrjn917bGY55pc-XSmuTY1Uw9y87mGDnSD9SJq5LZ00gFetCh_NVSuic8HzBKHfdtTHB5oRWOaVUb3Th1hknGeICaAEllXVrfyqZAqU5mKFbJDUgZXal7CRQMN6VxGw0qPCqBKM21ua6NhmYgYf
+[2025-09-12 07:10:32]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:10:32] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:10:32] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:10:32] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 07:10:32] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:10:33] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ8iDaPVwhHLYys-qEfZrhP55nNsXDdbwvSGHK_MW1Qb-cyBNRpm66Qd-bTyxyHJgIq-LJfqL7ZNwsWBHff3zcKEVLKCAb_8LVT4rbpTcsp7IgON9Kiw-j5lZaTMYwE26qworj9DA4Tk7Pays-wTvxdTSTG_6vEap82EqIJ7xahEHCLJu5Ca14g47QMOOF0d2B3DFXtC-iUTA8HGEM1lG9i4AmCbIZtQHbVPOxD-GugnBTMoDwcPcxO3qxdupdmu2orkm3l92iwQaeHEqn9XHnF9VpWAAPax923ZjKyadTUvjtUX6nLNUPKFWJuh_ns9Mb9kc74o49hcgMbyy2oI_DOzWvIiYw6Zw6ewAlSX11oCwUTGjKef_9-XzhMrN00XtWZWiz1_YY8hf5v8
+[2025-09-12 07:10:33]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:10:33] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:10:35] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:10:35] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 07:10:35] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 07:10:35] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:10:35] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 07:10:35] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 07:10:35] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 07:10:35] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:10:35] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias1@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:10:36] BUSCAR_CORREOS: ¡Éxito! Se encontraron 1 mensajes.
+[2025-09-12 07:10:36] Se encontraron 1 correos con facturas.
+[2025-09-12 07:10:36] Usando carpeta existente 'Facturas de Gmail' con ID: 31.
+[2025-09-12 07:10:36] Procesando mensaje ID: 1993c77f19dfc164
+[2025-09-12 07:10:36] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:10:37] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9dMX7RoThRqwBXz17Vso_QtNrvdHgNOVc4DLREJ3KsgG-I0CGqHdE4tdUTnEVcFAg1dC77q5ulpO2yBsihRad56ofRQfs709Rm9bvMqKiV3p_3NlAvc49CI-VY-t3V7dtltF5kr-3JJwcDCP8vz0KfIIVKozvyTxYlWYHc8I1Yyh3rQlE8nqWuuqicL6icLWycmN0ZyAjq3-A5qMxWIlX0MvTqQnl9omsnwF-LEygZ8HSHf6-upkONhJ2lVghwFB6A48rfCXeQVz6OsEqweJZuinpK1wmLh9nCq-mbIVeQwkcsHhsLxAK-cWI
+[2025-09-12 07:10:37]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:10:37] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:10:38] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993c77f19dfc164: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:10:38] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 07:12:54] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 07:12:54] Se encontraron 3 usuarios para procesar.
+[2025-09-12 07:12:54] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 07:12:54] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:12:54] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:12:54] BUSCAR_CORREOS: ¡Éxito! Se encontraron 3 mensajes.
+[2025-09-12 07:12:54] Se encontraron 3 correos con facturas.
+[2025-09-12 07:12:54] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 07:12:54] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 07:12:54] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:12:55] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ_dPh8M0tcRw1Bb5u-x7eu7U0et6VGAVvnvdmOGORElu1WqhHWJIeG3wbfA_wlmQSTIEajTVh5RHnSAIelmRpwRCPgsOz7i3i629wnQkFU2ptVLKDy7Ec6pEEGILV9nJiBqmNT8Te5Jg4zQwO49OR1-p3luCoSaJYNYoK6FOeI4FXEu8jfMSKfVLvW6LyUz7yWoUChPTHHsys-1QiYiHrgVilVutaV9iilF9yDQVOX9jMFeAl78awhDdDZxyZdOnal6HNJXnD6OQFOwlXHokyQ6x4nNbBvaSswmimEkrKamBwYepRCml7tSyATcFFc4y8aQhJznxZbs9NafEMqADtNxGisHLiVuZKQ1D-ZKVHjhc5zZ_l_eGyMu8Lrkhvk8-O0tOZ70shRVDze9
+[2025-09-12 07:12:55]  -> Adjunto 'cron_log.txt' guardado físicamente.
+[2025-09-12 07:12:55]  -> Adjunto registrado en la base de datos con su huella digital.
+[2025-09-12 07:12:55] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:12:56] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:12:56] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 07:12:56] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:12:56] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ8AhhjRZ4kad8C0ipZfnw1gOKhfSi7Kvf44FQME9WlBTvN0FcsDo5OBwZEg7h2Jo-kF7OtKnwnqY02M7N4MBf6BQtqsaiT5pvUF04o-PiJ5Yq1_4WWVOqYA_dtnYNJP3-5bq2hrEM-JKqd7DrLyfLzGTqmN8whoxMGQr_F9YSRFCt60B1uNP80X8lYH96AQUQs22RESrx1VrYfNKO2Qs95FnNCAwl1mYgdHfb1mEsbjH3oiPa5Vmom58qVszp7kIACWpIvDzJ5Bfbb9566Eljwl6zv6sMI5-XjTLPy2i1IQFHfhWj-C4pHhKSkAk5iM-A8-5M12pdoy768EewoeMHXlud510ZfqBwnoeuz_vPQlI6Vo_XfLsJ8KH57b0cK87tFHHbgjpsyZYBWd
+[2025-09-12 07:12:57]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:12:57] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:12:57] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:12:57] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 07:12:57] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:12:58] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ85XXcNw4KOQ7cxyNEncNVgHsopBSyY_aApIUVSiYt6sEkkGCYiwdoVjmaMTvLTKEQnRh_MUnqgHG2SViDhiuMOunc6FFOeDgtPLN-rfejjIx_-oEHJLeu4Qmdlxalh1-Bc_y41n2beq38J-pU-ksPfE7sp5kVWx-kTUdlRoRRDZIW3BQT_DrhLyLEVqoSHAg8ZnbvoQ90muvTWrUT7q9P3uqm0ROOLVbsdHRMh29tqXQQxDY38v7dJd4eTUUja-TZjVcQyE2rD446ZZWoT_SWWF_vmuOlvXwKDXROfr8wVI-a0vePgphpNe7g_MykTcnXe9t7g2IXmSUpDFTx6qAbUSKqP5MtAYzX48M_bFyVAWgzHyLGUl-Scu2gdiB3Yimke6W6zVlmHkMOB
+[2025-09-12 07:12:58]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:12:58] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:12:58] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:12:58] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 07:12:58] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 07:12:58] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:12:59] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 07:12:59] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 07:12:59] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 07:12:59] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:12:59] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias1@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:12:59] BUSCAR_CORREOS: ¡Éxito! Se encontraron 1 mensajes.
+[2025-09-12 07:12:59] Se encontraron 1 correos con facturas.
+[2025-09-12 07:12:59] Usando carpeta existente 'Facturas de Gmail' con ID: 31.
+[2025-09-12 07:12:59] Procesando mensaje ID: 1993c77f19dfc164
+[2025-09-12 07:12:59] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:12:59] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_uwD7io9s8UPZ-3JzmPIMoA74TzE_766beI7SNfX02gNv7WXoh7FiXmhCkuEVutoF2S87CciuiIzQ-h1ySEQrtJkxXTUIgqr-ATeHDTb0jDP_VwnTauzcqdarHWLYME2uorvfmDZZZZvFpLlRz3Dq-a5eACAwaDWF5EpsU49ouCX7PQAmM9qtQUcnga9gG9tzMy989zrYmSNkwp13N1ebllIk2U8zxI0y8AbAFD7OcGDK_tJnx6VCyoqVc7INv78-e1XmG-Ah_esuA1rMQQ-AV4efAVaf8tgc8iVHpEaOpfoB19v2Ntuu1CiU
+[2025-09-12 07:13:00]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:13:00] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:13:00] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993c77f19dfc164: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:13:00] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 07:13:14] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 07:13:14] Se encontraron 3 usuarios para procesar.
+[2025-09-12 07:13:14] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 07:13:14] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:13:14] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:13:15] BUSCAR_CORREOS: ¡Éxito! Se encontraron 3 mensajes.
+[2025-09-12 07:13:15] Se encontraron 3 correos con facturas.
+[2025-09-12 07:13:15] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 07:13:15] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 07:13:15] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:13:15] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ_25Ejs4ybaym3lMoE6vmPdckVdIjdDRvtv3NJSJsdw2BBOYGSvstutdiq9WP0_eRtbE_NIRTS99gATCV4qw0R67gZ3XlYlsaDz8fhyOq7t-X3z9_S7D6qia-4Tkg1nWpCuq1mCctEW5KWnUJjyq1vrHPHgPyrcoBeodMbR6tV273x931d_ZOAQUOBlIwFe2f_Wko_-Azhm1V2teP_0coD4JWYeDrpD4RydypwsxTLxhr31HKTILg3LEu9bwJx0Xpjdk-HZr_YyI4yC54cPmiovkwVTnKML717f08XipzWL578CtTG3p4jmj4Mbz04dXEtXQGLhwGQ3TWmuJZCYfnVlL3BIphD4PFY83phad67pkm4yqmuE4UTdWxU4p9uAEZ-5WtS-KAkHVrjH
+[2025-09-12 07:13:15]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 07:13:15] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:13:16] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:13:16] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 07:13:16] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:13:16] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ973bNBI3gkTNa-RV4Kh6NO2pxmgixIlqN-GIsHCcw1aQc76kGMzo-Ba1sbcgJngysyuWdbuxp-3A6AcfR8EjMD5P9Ta6PlGJnMEBWid4qMtiIHgKrkNNYoyOLjVdWY6QAPLabXyW8f6Kjo7-XHDKXjUfh0D4yQVWcFk0TJ8bzcU7OTKfs1WmhlysgsGH-AzJGbK0dTvsI_5ygQFtso4PFAYWEm3x2Jgzv7Fnw_hJ4PFtbeYwZbpDAJWFTLbii_ckNlze-1VuwXbueLR-SpuqRcxJ1ZFu40SqfrMN5uljg_x0h_VGqOsK5hOxQl3wygffz3duILwDEN9C1MOZ0DMektWGcOu4HwSfI7soYXfi_J95S5qa9yhfWVsMaKgwVVN9YfmsuTCfY6m2wu
+[2025-09-12 07:13:17]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:13:17] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:13:17] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:13:17] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 07:13:17] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:13:17] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_cVANdz5pV6QVy4RCJUKgNkNotI7kCKgGQd2ty-SBuPg0wujA3OPSCxDcw_goSR1VEq7rC95YdD1PR3U4R-Dslq2y_GTJseXFUtnUVTuVUgiv2fYL1nVnULWOWjI8PXop6IhWJRNhRxL9GA_8rG_gjSvjYr3XhI-naXUh36UHh2dHLpZ8nyM0FFULp1eLRqNVX7m6T-EEVQAeoWFg1TQyVM8Mgrpx5w8kcx1KCPBKXN8R_E2VEzNsJjPwE6FDBwnJ1utsPJz-Uf4CnCfl6SGEgWyrjM9yg33GpIrvbTekjGegc6G7fmMeoIbtdFMuajxvr7G0MG3ue_mxCXxdMHRag4cJqhBWaYZ96ukGmOpLldbcVaXmJ9R8IRbTVCtWj9zMbj871qGUz70Ra
+[2025-09-12 07:13:18]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:13:18] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:13:18] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:13:18] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 07:13:18] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 07:13:18] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:13:19] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 07:13:19] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 07:13:19] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 07:13:19] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:13:19] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias1@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:13:19] BUSCAR_CORREOS: ¡Éxito! Se encontraron 1 mensajes.
+[2025-09-12 07:13:19] Se encontraron 1 correos con facturas.
+[2025-09-12 07:13:19] Usando carpeta existente 'Facturas de Gmail' con ID: 31.
+[2025-09-12 07:13:19] Procesando mensaje ID: 1993c77f19dfc164
+[2025-09-12 07:13:19] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:13:19] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9HtJyb4rd83enaz0QKN5E6l18_Top9gc0zTvq5j1S-SwYe8ic531TbdHPjEhvKcJ8wsuo-MGqbWqieXGlCWraha3syVi3a7PpHDPzmCvIVKSS6KSq_bW4BDVYR7iJSe9snRA_bosQiHLj1rGbRxqzdH750U_NfirMmlr-XE2RcnYR_QQlg-N6lCL6I7bNF0KgrgZNdQogp2rWJuPElgfH_RPzfsSNYaAIonfCmv-0vrmCCgAbs95LsfsthFTNTkanJM3tJiBPrEUyPJw_5-AU4yZSAPaBTCIdGPYlk100OjUc-f9vzazHq1_w
+[2025-09-12 07:13:20]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:13:20] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:13:20] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993c77f19dfc164: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:13:20] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 07:14:30] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 07:14:30] Se encontraron 3 usuarios para procesar.
+[2025-09-12 07:14:30] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 07:14:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:30] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:14:31] BUSCAR_CORREOS: ¡Éxito! Se encontraron 3 mensajes.
+[2025-09-12 07:14:31] Se encontraron 3 correos con facturas.
+[2025-09-12 07:14:31] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 07:14:31] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 07:14:31] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:31] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ913aawfP0qzWOxloSCpkb72T-_Dr8ck6fde1LC7WaVJwoOUndN8NfaDdqqThHHkr-DxjOpCGXQzXkK63z039-4DaUuBSQAktqqgbNgtiXOVwNVPNqAUZy_Cswt6mlzWRdVXuY-nY4Hk_BWF7KfnNkJlFnBvM7cSIMphNFHsQDBrcNoNv8F_JOtSJJAidRuQbHr5SJQ3w5uLg8RkQMEUW8Y9bjNkT9egPdksAvF_YHIzV6Dbs9dFZLofhIhqwD6seCY8HMa3_UM-PwU6b05DXYHLtgHKnsc7jpEW2OzJpkL8RcIfDwMAjThEMyV2_XMWntr1Mddm2otHYuNEqME7Eevgse8l4rNi9R9YyGXPhsmSdCPPAVMZpi1SZIOnlLXbSLWLGF0Sh5nVHBj
+[2025-09-12 07:14:31]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 07:14:31] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:32] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:14:32] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 07:14:32] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:32] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_SpapjtJyP_aaOfr7aFHJrpbcqqCVsTfg6njd8nIrUQbdpGEkWH1MtgND-6t5AP7J6DOrbWO2-f_-tXma7cDW6g-Fe3OJTzOC_TG_VRL1_uBOCRuyZhURWWxLMFQnXJ9g61QD1UfFtHbFp8KKvc1Fd-Fjeqcy_u3qtdZZvSAOAI1hxxinKyXQPQQY8pMn_JoLXkGcMbRnGkp4NIAPtQiVLJFc-x_qQEC2vTjnuQjBoJ_9ykPOwPpDLrc_9CN1ATjZ2k0G9UtRjvbOEhtpkf2qRxQnoVb7u72n29Kr8-OY3ygZ1Fp-G5ib_TIvsANKXv__UlUZXEzxMrjtci43qvnY-rLjTfL38EsTxIXbcHAeV9VlWLpePd_b3pBbmVB4jhlHT3FioVR7FcfeI
+[2025-09-12 07:14:33]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:14:33] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:33] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:14:33] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 07:14:33] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:34] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_b1wLw6sMKm2_3MDlrmkZ2qaExqq0e3pU-oI17NVCnWlbfVMLuONg3SrVUh-oKXRp9MRl7LuXSGeQqY13mg-A5LnnF7GpuoUWca96dnVMA9rV4tEXsK1eDmjYQ_JyCLyu1WNFQxjCMM83Nppn4N4ae2WstFjvYybkouoJwOdSkDrEWwX9gp1-W0rANEjc_zt1GphGTU_UjKMIWwBLEu8IWRgwUTyP4M3kM8Cd90pihMo6HkEKWDI2G1_ZJU_c4O4bCVHn6XPQnRtIz-oXYWta7rWXzHjgvo6Ya6l7nldgRp2QNGBec8L1Du7Jh2pMz5ZpI7CW5Ws6zHqHkLKwr6_OMFmqlsicWnNEENpTx_fNpSxfxARgqHshrMjrSUj3OhSqoNboXBxtUODYt
+[2025-09-12 07:14:34]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:14:34] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:34] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:14:34] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 07:14:34] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 07:14:34] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:14:35] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 07:14:35] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 07:14:35] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 07:14:35] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:14:35] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias1@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:14:35] BUSCAR_CORREOS: ¡Éxito! Se encontraron 1 mensajes.
+[2025-09-12 07:14:35] Se encontraron 1 correos con facturas.
+[2025-09-12 07:14:35] Usando carpeta existente 'Facturas de Gmail' con ID: 31.
+[2025-09-12 07:14:35] Procesando mensaje ID: 1993c77f19dfc164
+[2025-09-12 07:14:35] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:14:36] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ80FpAkqy3vByD02j8YZHbapLYPX1IozkYECnCQuydjkybGgazf3-R8LyY6CiZIwbpOv1TfD61qTBLreWZ6-E9DgaTfjcayhS7II-0W_5GekpBGEw2SJTswMq6ai2UfHJH6byaTg20W73D9-dR7HrMkQSNzjNNDtuNR0_TEnCJUsTwzlOiBYQFVlg_h54LbrmyA7H3eXuDyDI5GqWTr-YqT0u-A-xw0alUWbQvyCXkzsstU1rrm7R1KX1KleuPQ_OksU7IoM_F8C6G9ngQMSBTYjj9Noww7qui1HPwDiA9rJrzF2PUtDhhcp_I
+[2025-09-12 07:14:36]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:14:36] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:14:36] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993c77f19dfc164: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:14:36] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 07:14:46] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 07:14:46] Se encontraron 3 usuarios para procesar.
+[2025-09-12 07:14:46] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 07:14:46] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:46] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:14:47] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-12 07:14:47] Se encontraron 4 correos con facturas.
+[2025-09-12 07:14:47] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 07:14:47] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-12 07:14:47] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:47] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ90cwvZpem1IwsaONgPl-NLJcBY5KRnOZ_eaAJ1KIGpf1aSL7aLsJSkYA1OR0dQXWXlXzDgSI4LpyFYT5144-8UO49AurvPjmddUbYbfVB6ZWmJjyj_mffD4D1yXgMm4tKTIKMoahPa4dYBbA2GuAj5xP7av-na7a79pQxAxl5i9YU2XvsZqALW5tMEH4u7X75JA0uUSX5R1jsoLMMOtqyW5L9qyfj2l8_ArZN6dScwvqPwzhFb7trOh-pPTlu45HKxYX3ufz5fJSxKp1LQsLP05modCaEYbmFdjvu-yKXQdIRaxhRNP7TzzuUZ-zvrdj0D4tgP3qZgBTzuJ2S-3Z3bFl1NkKOza_l7p_-GIR5CesBFi_lxAVjZlH3H0M7rm0d0gbTNa84Ld-Ea
+[2025-09-12 07:14:48]  -> Adjunto 'prueba.png' guardado físicamente.
+[2025-09-12 07:14:48]  -> Adjunto registrado en la base de datos con su huella digital.
+[2025-09-12 07:14:48] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:48] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc6adccbdd86: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:14:48] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 07:14:48] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:48] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ__VNVrcHCmWhdKkYQBBvwFLX8WqYWayu-P_km4gocv-xRpP4r16-Y8bM0cWlys2p4oniYbDjBUyonwtTwX92FNmqfeNrmF5m9epRrv6ml-EFtOf-2mCVn5i3XQEdjGR8MUs5EjuZZ49e5sigRP7E-cXNoXyvSNRqaluE9-IhT60xR1OGREs5dT8t3GAhf0DIlAhOGi7RS6RqoFYkB4YvgUgKtHSyUVyLkBHyhOo-aH0zV-RRXnHBMW4bBdvsL7hixnECCa07e_kSFH6temjHBKtOG5HRTMK-ExKu25KJR7i3uC65UsEoEqZs9M6EoVRM_Xqxrx6NPIC6_LHvf8Tl220BFl-MsPBc5OgWNagGP-HH9Kg0tqtSoBnAdYGZZs7e-haD-D_KfU5o_V
+[2025-09-12 07:14:49]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 07:14:49] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:49] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:14:49] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 07:14:49] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:49] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9Egf_Y9JfEaKPSu-NveBTuh95x5wKHjT167CNgN5wo8vgFjUTNeY-nX4gFKY9VkW4Yuxw-r77z1Y04UMOdZAGOmlidmacHVFbKUm5Pi8WQKSoYkvM_aXlmd7_OLhhUCI929rVecEJgBYQmrZ3Ce0dcYC2xMbZshq41FL0_2yLbUDr2-1leHsREImDW2yUcmFyhnd1CbVpHGR1-_w_T4JmxfF1aUSwU_kuXU-S70IpRVnY6jmGCAAkknmBKCDyyg_jItgNbw60KsnW6v2uFUxBaXzrje7MJ48azNUoUxHvXCaw-ji5NS1PIKhcOFMHl55wn-H3zVFqAofoxCcGCey5mPQbgVDwr9athlOlRXLrjlH7EE7mYadcS_PqoS7EZIKeYsiec8P884yPA
+[2025-09-12 07:14:50]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:14:50] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:50] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:14:50] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 07:14:50] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:51] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9ISxtD6n7n2tk1NQjK6a_sfi07BuWXTkZIrXW_xS1izS8xfmpEe1eKZE0aycD533f0wPUxJczJQ9o7MpyjoK3xjBcn6NXT8JOK2-oMStz-LXcU3wnD8NiY_2zU5qMecqc9x2bbsUIUn-EImA8AsIbcJlx7enWvslHEBrZTsxn-JjSt8oB7_MVmkuoDvIzSFGNDfDUUM31ARKDDKP3PJI6T1307I1GUBpXBajRHPvYi4Gq2souov7oOBf5wEtGfDbHlucmtPvCMYyJZ9zDS0RLFxH0tQzFqjD54nznlp5P8DtD-wnzkzrDHTuWlYhl4fekK-iyvqF3zSnM8pZ2na0OprMWAKrapn_NZnglbUHZONm27T2rd6Z8XQc9OYfi2VenyYQVwI8pXI6e-
+[2025-09-12 07:14:51]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:14:51] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:51] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:14:51] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 07:14:51] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 07:14:51] GMAIL_SERVICE: El Access Token ha expirado. Intentando renovar...
+[2025-09-12 07:14:52] GMAIL_SERVICE: Token renovado y actualizado en la BD.
+[2025-09-12 07:14:52] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:14:52] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 07:14:52] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 07:14:52] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 07:14:52] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:14:52] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias1@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:14:53] BUSCAR_CORREOS: ¡Éxito! Se encontraron 1 mensajes.
+[2025-09-12 07:14:53] Se encontraron 1 correos con facturas.
+[2025-09-12 07:14:53] Usando carpeta existente 'Facturas de Gmail' con ID: 31.
+[2025-09-12 07:14:53] Procesando mensaje ID: 1993c77f19dfc164
+[2025-09-12 07:14:53] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:14:53] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9x4wdaNF18FjesGsnm8OVl3oEj17Ktp7Z7gFeH1EcC6KcCWWLgFglCDm7k16rN2yiURZW5l_kBh-eXeaNgZOBnE1yAjaF-Y8llnXTwO9JVp2BWL8zfIn-3rO9-8eZfPlbn4IxiZqW_oIufUiGkXHijE24ZRSDB6D8jD9S8QKMJB8ICHlDGKmDrXZlvva2R8YDtmyUn_gasqbMDjgrfoMMDPfbqtmHDJvJWHCnEobfnCJomms1yFCCmRzZ9ju-5KS5uTEXREBQ8YgzcUOcK7F1OMCWjH-KlaQOHOALEHQce2JJSG12iQMtSDdY
+[2025-09-12 07:14:54]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:14:54] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:14:54] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993c77f19dfc164: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:14:54] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 07:14:59] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 07:14:59] Se encontraron 3 usuarios para procesar.
+[2025-09-12 07:14:59] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 07:14:59] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:14:59] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:15:00] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-12 07:15:00] Se encontraron 4 correos con facturas.
+[2025-09-12 07:15:00] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 07:15:00] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-12 07:15:00] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:00] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ8VhGwQTyokGIrCQCGD_jBU-KWi2Dk53u0XQzoFDSDkJ7D8BLihchycZTtmrKM0hqJoCeJpL6MKUnAXiFNpYCSO39_Au-pwDVAugsY2731ltZ0wS2fFhtQUCmg3nAB6t_s7Lxfbfx-kFNzY1R45Hk2ENvARV_-d72q03fOmeUELzMqEOC74cOtcmTRT4h1G-LhmewpPWHgTZpQaHvLHLHxjOrLgOkL7ALDSaEAvKV-SD9s4JNSEOtb-WFVW0wvLT_jMyhl_d91T5cLuKDkttl6OEmNfpuEv4RREvKZGXiWya0n1xN-OwKiXlhA-NHam4IJf3zjXCrGRjQmeIsjPI_aDFejmOArsYcgqp-OhZFV338zjwFX6txzmn7md2juu6TSXgJAOh-5xH_rB
+[2025-09-12 07:15:01]  -> OMITIENDO: El adjunto 'prueba.png' de este correo ya fue registrado.
+[2025-09-12 07:15:01] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:01] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc6adccbdd86: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:15:01] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 07:15:01] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:02] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ_DEzfmecueQAM6MuMh3zbs-YNJwCL86xWVN6v8Wm4w41e-OO36-ujGlSZjj__Hp80FfTJxGBQym95r2qG2Jfr4XAlzgN__cQOM3-IfwcU0rROC5z5Vf4DmX_FelS892H68UwZOeSP3M3W88ryq3XS1rNYpYG1uxzYL9Hjx6AMBtrfXko5Jxb7UWWkNAo_1ErL78LVqcNowxy3DAK9pgLAP9J4WvGX_k6tfqrzNjrGqGC4YdrpFsSJmMXMnjdgNRZ9sUtDSCP6kBcFuLfpQGkYGJiyNRLnGWL1dkKh2SZQxWk4IM9ur62irrJgz42bJf2u3sWwi20TSHnQYtrKMRflwv4rO3SVv4_tPJ7IcHO3_Pd7AX602I43MomVoIa0dYeI_AhI65RQ8QNfv
+[2025-09-12 07:15:02]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 07:15:02] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:02] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:15:02] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 07:15:02] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:02] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_AD4rWJmBcRP-TeiwpR6_y8NRZnE7UvriF3B_MlVTeGN5q4ihWshowq8oSIvcH2zOKCt_PRpxJOd5Xs-um-ZvYw45Q0AyLtAWAmm6ruXj_V9UWfnURVBSKm3azjAST0Co19I6UqQHjqGKpKc8E7bGlg0GHsKgpkh9ny9uXqfIxQX9pk35ebxS5zzWiVYNgjDbBeANdMlBYIm4H_Y6EhtnCiV8RrsDA43UYxkQ08LtjK-D3JAzSMcMVKgZSRcGPv2iezo0_98_GYhNAzfvmlQcQIpa5yyd-NzzgLqwFh8UiKNl3ls-xPOQkl0vsHgEiDh4gmQ5TjbIZQw-ZF_0rAklInzGQqT02Rdop3CSRQch7TXxot20xzfRfqbhkJu0BBrFxLGJyLlywrzcX
+[2025-09-12 07:15:03]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:15:03] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:03] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:15:03] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 07:15:03] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:04] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ8YDYTkp6hWYr3QXzHzJlR_U3jRKAA4KX04w-DhxAjsMm_omwTUDl48CXB6iHys6xTQms14tLLJmr-7vRkGbHDoYQLOy8PafXGwqC2kcjiXKa_Yx4256IQtXjn4bPpFHoR5h4SSZYT3MvBcEZGEakVDkzRkgtAuLsRpi_LusxdQ5uwCFjfMl1vcLAnd0BBhZ2B9Uqly_MQ9Zp8PJgCHl6qJc4haw7XuLDc1oZ-QmehYo3Fp2etGomDfGkQ3YPtFBTjN3LpHuTcTD_gdYKJWTb8OJMRvTeTfUmSqI6gAOdvSbq7-VZwNhyCuIa42ofNUBqDVVvTUqxMwDREQglUHx83hKbmcY-hXDUW-INobDIyv0pqb3xQWUw4yZxQ0TDe3fCD_dxTayJhiQc0W
+[2025-09-12 07:15:04]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:15:04] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:04] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:15:04] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 07:15:04] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 07:15:04] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:15:05] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 07:15:05] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 07:15:05] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 07:15:05] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:15:05] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias1@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:15:05] BUSCAR_CORREOS: ¡Éxito! Se encontraron 1 mensajes.
+[2025-09-12 07:15:05] Se encontraron 1 correos con facturas.
+[2025-09-12 07:15:05] Usando carpeta existente 'Facturas de Gmail' con ID: 31.
+[2025-09-12 07:15:05] Procesando mensaje ID: 1993c77f19dfc164
+[2025-09-12 07:15:05] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:15:06] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_NP-u7z4V6-7q6rHlC4UJTyK6ko_5OFaP55oqQN_KSuslrjL3ldenlvCM5BoLn0tUwp0izw0rVdwqfwn66-V4hboVQvlw2dQZ0Dq91Dn9ngREjuMgGXC2fQIF8_Fj2L2ADihJaiI2Y3ISanfhVozqG_WRJ8j3VhWQ4WUmvpyhIdfeFicTC59LufZx9wDP3BOCAcpDRsed3ruCZuJvBiLiobW1w__c5E5VruRGAZe_UsozvJFYt5nWML7n4OhbXIKK9sLyPTqqlqoN8X3dn6uDldmwaMZ4B7CiIiIHDntysJjgfiFg1N76FqjM
+[2025-09-12 07:15:06]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:15:06] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:15:06] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993c77f19dfc164: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:15:06] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 07:15:16] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 07:15:17] Se encontraron 3 usuarios para procesar.
+[2025-09-12 07:15:17] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 07:15:17] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:17] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:15:17] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-12 07:15:17] Se encontraron 4 correos con facturas.
+[2025-09-12 07:15:17] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 07:15:17] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-12 07:15:17] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:18] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ_cFyJLdTRqv8UJ60hVDAe9Bt75_iZ1z4NBDUxfaajE-1ZkiexZyEUQeMjfUtUo0RQi1Y7FEsWskj5gloQIVNZwHNAC0fN-B2Lk9bQ5odg4BP5Orz46-gBrrwEpSRBy-lRI86e6HNyoly5Q0q8NiOHx9ZF0-udz6dXz8xyELZ-vGMMRHYrafU-cfKajs8oUeyYisI1POlqSZSF4UsZIkxGSVB3tCe0cEiP9v5MLkTWd3MDKnqAhwLtGquWaokeROr8ljo6FRgnKSyMjwaYf6S74iRcGiIct0wf5SkoyzD8f2Ws_vG2nFDkbvdRsmOepzXxDSpTunMMi1_I4GGlx21QxVKiy8tpnehfIoHB0cAtHsL5xUzP6hQuJfrZWn8d7LCgHmSfXMImExasj
+[2025-09-12 07:15:18]  -> OMITIENDO: El adjunto 'prueba.png' de este correo ya fue registrado.
+[2025-09-12 07:15:18] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:19] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc6adccbdd86: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:15:19] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 07:15:19] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:20] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ9WZ9c2rg27DnRHn1pYuK39JjLfUyHfluT6aBVGPn-PW9hbnZNI6Q8IoO7QL8fRx_kOfiBdOpAaTc9ZmxWGyyAQHnYihK1gl5XGpi4K13jO9H2SvjZUAr2QzPZBlVpX0atOhRrSquZzUy9EFWFUXvr4i67yHd4LQjvRUNepoQtZVNjVgXSeAV2qwm5mj88h4IDtVdc-Y2R9Kw7ug14wGLfz2PtUGZUqaS0OSqEGLhK3vD27Lf010bBzBvUGA1Z6toqN1WveFlmAMJFpn68WRi00ekW5h8D5Bt0alhPmcrJZeRRfSrbpV50FX0-2c4Wk-OHfMACrj-JHcud7tz5QyNMx2oUlI1EViZ2mNjV7aeerXah8S5UhiG0mWzPaLdmcWAvd1ZThRvOKe1Ig
+[2025-09-12 07:15:20]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 07:15:20] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:20] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:15:20] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 07:15:20] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:21] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9j1jNiiT5TU37pveIvHYluLYaIYg7t41hkm0pxDUhutSrnAASowFIEF0oh0LwVpw1JWBTc7LNjRrLfjl0zSNrSzgst1S6O32ur3qOPK-FEwqmEnXDqvVwKlE4mge1fkVOM-qfhAOupmBSCRIYFTufFlOx0PWiQ81trO5K81rzCzbJ6I0VJjyZ-ANSGh9G6aK__J9sZ2Rdkl2SaX7MMesXY1cExSupNNMe2F8AVwNzn5e0tnAo_w-IOj2Q8mLjvtG4dN5scoeQq0APct-XNw1hhOSyyZWwY3gDzPhs7BpYb-rVo5zzNFltILxnYl7sr6PQ5tSwUW86xly8dug6zJLzBDksXsblix0zXz6s_8_GAJoTSBav1y1ElbVl3lywNHeUd4OIvLP1vjL0_
+[2025-09-12 07:15:22]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:15:22] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:22] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:15:22] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 07:15:22] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:22] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_uowG9-ys_q4gXY6Pjvz54d5NXHbQ5kigd0Mfc5s9CRgqVQSZEtTurjSUraM1WiguKA1fOVhW_2XHPFkP9nX8Y9eRU8reJ9o3LHD2gn-9fYDy_QvoOxbwPrpfR2XVCI9-estoQPpnU37DPavQljRNGq4KaTvip_ii_gFT1FYP8U3rbKwTaliU6x9GqpbpoOil0V-mYZTUk1MvNawBJpE-jE3xRkVk6dF1F-EHMjXFQrY0kwYcuI_Fl2svQn2Zvaab_safzpPdxbrwaR9VDRdMku-dwenXh42xpovcU10U6msGKmJuFcCEj-Vf8yBYHf4B1J8YkOfOFJF9vcXKtNBNsfYtd4rEFW5ncAOr8bC_w5iKU9y_4ZXrNY2TT_GRQk0G_9aBLdHahxgVT
+[2025-09-12 07:15:23]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:15:23] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:15:23] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:15:23] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 07:15:23] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 07:15:23] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:15:24] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 07:15:24] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 07:15:24] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 07:15:24] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:15:24] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias1@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:15:24] BUSCAR_CORREOS: ¡Éxito! Se encontraron 1 mensajes.
+[2025-09-12 07:15:24] Se encontraron 1 correos con facturas.
+[2025-09-12 07:15:24] Usando carpeta existente 'Facturas de Gmail' con ID: 31.
+[2025-09-12 07:15:24] Procesando mensaje ID: 1993c77f19dfc164
+[2025-09-12 07:15:24] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:15:24] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9fR1y-x7dzQPr5fEYngY3-_c-_vPRMjE2-aaHXoUFpqeBYEcnA9fGqpIzYuwWKkjCH9CcGyBZAxK5hR9Z4vR35CvtX85GQfxUvzFyCQQi6Ws-31Fs1XE-RiNrkdqbq3F1KQU3q3Ugh6_Ck3GYbOlVRKP5OIe5l9deaAuKZzkA5SzPecIG1Pr41XGA0BjPcYJVtVdvoE7dWdfDjwvSkyeaVIEiWeadSLebLStDnSleDqg5NqFQ5ReW19YfmvREJpGMK4gQgkh4N6F5ge794Rdfms92zw3HpeL7SOFIR2uO4Cwv5See7ozQdfh4
+[2025-09-12 07:15:25]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:15:25] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:15:25] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993c77f19dfc164: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:15:25] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 07:17:56] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 07:17:56] Se encontraron 3 usuarios para procesar.
+[2025-09-12 07:17:56] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 07:17:56] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:17:56] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:17:57] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-12 07:17:57] Se encontraron 4 correos con facturas.
+[2025-09-12 07:17:57] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 07:17:57] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-12 07:17:57] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:17:57] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ9N33oauNclviPQA88r39PF5kSBxSWB-5UUzXcJSIEDyC2a4DPP5Gx1y4BVTgXB6oNccwYAFqkcgYpqljfsNj-4wo2mnwoJ0czJntHl00j0OynqVxAF782rtEzEXjH1caZe_tne4oqAbPlF1x9-JZp1Gemfzn1NkElGkWtpYK-NPf3Eo6jlhAmEITF4jOnYp5Bl8BqcBwrQir5Aglk2353wT1dd0dl63jmtKgajmhYOu5FdNZAY50f9j__1Xqsulq5ovqGkx1Y0TGDQjk9YC0Q8Heah9SxtCp73wr3Mi0o2dsyI0r6j2qFfa6-I3geE-pi-sycBCVOdEa02mhtE37t-SUoODLirMoWTPqcGKrzrWFl9LLQcIMsWFeuZHrQfeyWvMfMqf1UDJrFR
+[2025-09-12 07:17:58]  -> OMITIENDO: El adjunto 'prueba.png' de este correo ya fue registrado.
+[2025-09-12 07:17:58] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:17:58] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc6adccbdd86: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:17:58] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 07:17:58] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:17:59] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ_SP5JSoh2bbmRLBegPovhdSP5Dl8RJhihZSNUQDV7rbCSPU6ejWcBGzbtmSWC8EThIFmBCm_xhjYYm3b8qtVvrZfMwf1pYZ0_wOj2T0NQMANvz-i0PQkoMz2FWMtlldSH17yKBq_vxGOLPoImnAttz-GvRi38GP6mDmQykiGAZSGzfKfMiSqUtEfX408AkCT1yDxTu2aXM-1lq_kvb88CT8kQKlAuLYZJ9p6inn6_40j0_0EDrLumqbAbIq-5Gjgey0TE_YzMUf-3OTwpC9X2U8XBecVXpz6EuJ6SJ6gppL1BTj2fairssjTN8GpPXKeKBE6Cj3UqKYvfKOlabWUcFy4FjTXryhVV7auuR5QndoNczlI-GfSU_IgDG7KLY_CVQQHtYidexueTP
+[2025-09-12 07:17:59]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 07:17:59] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:17:59] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:17:59] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 07:17:59] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:17:59] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_gH3x_qz7d2VGc5QVc5Ot-A0dIs5VrXNNiZSg0Gq2OQTwxebh7MiJgGFpoeL1u7GjhHGUjqdcCMr1fosgiPkjJSfeECTY6JbZO33ynO3jj47_gTJOH72Q3YBPtblyZFhUYnywW2dOqgBd7s6-VsFH5w_11dGJObvwY1InGZ-i9YWktrXTT_5wvP82D6JfhLuvKoHR5lkd9eTFgzfijoQF0-uPlWzQQbv1eJtYFs6NULKRUZXC_vZxB_MA_kAw6L-TgtjsYL5KVBWADfm6XgedK21AHDiAjVQokfwPoVcc-SpIj8rj9JegpA2qaBgqBFfVjp1WlNRX9D2dD1cfIt9nsyysXlGpxWGS_90y1P7Qo2sYWazdHUC-tw9LeuW5UW_sYJWMy6ElXWyXJ
+[2025-09-12 07:18:00]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:18:00] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:18:00] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:18:00] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 07:18:00] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:18:01] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ87Gsb7OqWWnrLvdNnVOru2zwcoXtEnJWSSLaQXZ487oPmlPN5t9JePI2wMOKEa3gP5I0SAa__yK4Pm9f0oznoE367DiF4ywYwKMQAZBd_IELqolNxSm2gNduXhQ7iDMKi1YztFemOaJ64OiNnhQrV4Y-bxZw1Fr59toKz30uE5m6GI2-gMzJpkUwxrEjPde4Ca0DfZ16Gpqjv2vikhQZ2SSvjqzu9CxBd37Lje3DNEjqzn-YxAAV8sOwNxlMTydvJP5h0iTVo1aiZggg_61CRHLCVd1cqmlwIRh8X2HA0QD7co1cWfHWDiv73FqiqoEvb2or2JFJlZStkcFPg4CL64Nr_msFqP02fUjteIRGh7euL4usGI_WIIJICyCAnTrfFsHW1H-7dJAhTn
+[2025-09-12 07:18:01]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:18:01] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:18:02] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:18:02] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 07:18:02] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 07:18:02] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:18:02] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 07:18:02] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 07:18:02] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 07:18:02] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:18:02] GMAIL_SERVICE: El Access Token ha expirado. Intentando renovar...
+[2025-09-12 07:18:02] GMAIL_SERVICE: Token renovado y actualizado en la BD.
+[2025-09-12 07:18:02] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias1@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:18:03] BUSCAR_CORREOS: ¡Éxito! Se encontraron 1 mensajes.
+[2025-09-12 07:18:03] Se encontraron 1 correos con facturas.
+[2025-09-12 07:18:03] Usando carpeta existente 'Facturas de Gmail' con ID: 31.
+[2025-09-12 07:18:03] Procesando mensaje ID: 1993c77f19dfc164
+[2025-09-12 07:18:03] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:18:03] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_9gRKNn-xaJB4hRYwBd7dnsmngElEYJOuYZ2_TR9ChUzj-8Q-1ri7Byk-y80tJ__rMPsPQZj2lF7NCHPwQk6kzaTzqdgh-JtkKdky0I6T0G8S3QVZOWjd5FgmjKbm3w3Ni01MDUJ2u0Tf0L7xN9zzN7FXMXcgmdN1BFHAO2n0Rb3be5Z7gS3Xf1X7XXmYoNso8r9eP6LzR6GqBiTkiwIOSnkSEmDT-FGHvNLsGyVoGooDzJNy5grzpvXqbx7SL6OrRFuO4_aLHf7iKM7I3D9oGxfYzS5JIqPLTPJrMSi4kK0TbfkQ5KFz1meI
+[2025-09-12 07:18:04]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:18:04] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:18:04] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993c77f19dfc164: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:18:04] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 07:18:17] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 07:18:17] Se encontraron 3 usuarios para procesar.
+[2025-09-12 07:18:17] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 07:18:17] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:18:17] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:18:18] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-12 07:18:18] Se encontraron 4 correos con facturas.
+[2025-09-12 07:18:18] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 07:18:18] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-12 07:18:18] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:18:18] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ-oARJesxXQ-n1trp-dLZZWiCMIYSv3-3XEA4xcQETFfkPDW7qnVbgO2hvNVkVdYxojW0LLftHueoOjbztxmi0iy3aiEkSq4IwA8kw0SvuOozoA91eYRgQzGtDLofqV2ZDyrrQZCiGrQrn16m0J9iVn-_NTW7qZwezIxwPYu5gxbJLs3ijXxjZFGANOPA2QuiFPoE-D90norVlw5NF8_ernj1aY4p-JGnVOX5zxQpPo_8fpmDsUZR-wj3_9O8gmr2lwtJnKQRDbXITIAHPrM1qXmKOvGqnuw3BnD7algvMqFTVAXq2Vgyk-1pUjHWKhvBjXEKr1p1Ydr_WywrWnAmxcVvdD4jKDvC7V_zYd0XLrdLUghC8pnGzDNTaAbJYS6175CBa6G0NnZznt
+[2025-09-12 07:18:19]  -> OMITIENDO: El adjunto 'prueba.png' de este correo ya fue registrado.
+[2025-09-12 07:18:19] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:18:19] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc6adccbdd86: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:18:19] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 07:18:19] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:18:19] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ8n-Naju87IAKuWnrsei5H3YEBrWjCo8hh1ebOBZMk6Ip7r_9AciO1OkYgI9t1L96ULTXVRpR085-Ile_WQ2cRTzJpaY4ix-zqUe5067ykFcexboqD0eRzxm3n9Ow3G42CxQG7958qnXk29IEbl-gamMEdImcuqaea79m_nU0h0Q7ab6U49zpsqnQqy1G-FaYfXPk-kvESCEL-wmYgtt3msBVFBDRfcbIY-Rp74-EVfjHxtD6m0k3Y2c2QsxkeLqg-jgL-t7SqwCVifIQ2ZBY87Yo6fKWhMCA_SLsLE-HgNwA-6-sDL3SbYQXPPpm-jd4xnCpYlF-GqWA4Hp2uOQQyc6x03JIKn1IP_3RFXDym_UIfcrCHtVE-q_U8IFRvmWmlCZxrhmD1exKD4
+[2025-09-12 07:18:20]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 07:18:20] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:18:20] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:18:20] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 07:18:20] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:18:20] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ-L0jUhyujcc_ZMvyo3SIYLZSTtKPv0m4wGvBEYV7YaqA6B0kIB6GLNS-V8T0Zds08-xCUP4ZlTZCMpZCtTb_Lqp18rIAagbyFGdOm1Y7ZTzUo4MwI3sZ4mELKoDie0Y61Vi5kh-3jHdsnf4uqIm9nnTbPWhODPtYm10uedLxVYscVOKAKqgPHHPl4b1LCkkFuMloS6HINCU_KQqajIlvvVMETHvo7GFuSKK6gz5bpt6BcKYe9WRzmFBDlCB0qWu6msHIWR8u4c2PL9cCZGLpuSNXE2_hOPYnwRJYM8kFATLMwbhoWwVdZw5q6VbGb9jDe_MRS1IakDaMZHJlirk8nHr5_NKZp9XfB0h6UBZZ-g-lDIMhRUyQuyVEaDktU9ga6MXftF75KULeE2
+[2025-09-12 07:18:21]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:18:21] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:18:21] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:18:21] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 07:18:21] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:18:22] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_zCyJ_H_1ivmE_7mjjMRULXTyg7XsanFt7Gokd_ghCh-n_mgDs5WuJIyZ98iuigMNEg6toFICpI6sXaUwLH_yRN5gIFyHBfyFJFqRgbMRVdCZohbsAEYHIC-0Kd-CeEH4kZZMYenE_Fy0oLvPaWC9nb8lE38EIWRMBKXiIyo4pkyPzTdY0HS3-2lePLyVDBPNWROOWmDvZxMA5PJqndTG1-NpOt9HaO7WzDd2l_MrJWlQAmhmed7HVouzjUcb1dmk423p1ZxMg_ZwhA8FIfgabEwoLolDcqbRwEBJWkV58VJn8OdIwLPiCTCNNrX8DqnhUyem_g3B-L_q1WkPejUSb7wOiwrLePqXwPGw0vr4x0h7sYn92flNfKGeNVD96LlzEUHwIwF1n7DkM
+[2025-09-12 07:18:22]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:18:22] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:18:23] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:18:23] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 07:18:23] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 07:18:23] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:18:23] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 07:18:23] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 07:18:23] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 07:18:23] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:18:23] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias1@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:18:24] BUSCAR_CORREOS: ¡Éxito! Se encontraron 1 mensajes.
+[2025-09-12 07:18:24] Se encontraron 1 correos con facturas.
+[2025-09-12 07:18:24] Usando carpeta existente 'Facturas de Gmail' con ID: 31.
+[2025-09-12 07:18:24] Procesando mensaje ID: 1993c77f19dfc164
+[2025-09-12 07:18:24] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:18:24] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9afhWf4fr-4ocMRNLSNokN4vs4YUDpVi4Os99W4rX4lP2SJcpDDmou3S1Q3d1RwW1YLXlk1uSc6C3OE6KM-c8_l2uFw7VwgB5_F7eyWk6WZU1cMW5m01eDXJyHM-zOQJ80rGLVqNH4Sp3WZgJF93V7pxBr4b8E9gXiOP7X3Buy1HSSiSPpR_iQWTEj-g5xn4t2xP4MXAtzw1OSwD6jNtbmmplhCDv9HGRxLtovNrcRfCJxlKnt7S9f87ftM8qfQ5nZn-ThSSukZeHx2StfDXGBgr26qOwiTwZO07DNhZ9NBR2sIAH0UN5ndUo
+[2025-09-12 07:18:24]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:18:24] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:18:25] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993c77f19dfc164: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:18:25] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 07:21:02] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 07:21:02] Se encontraron 3 usuarios para procesar.
+[2025-09-12 07:21:02] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 07:21:02] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:21:02] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:21:02] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-12 07:21:02] Se encontraron 4 correos con facturas.
+[2025-09-12 07:21:02] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 07:21:02] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-12 07:21:02] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:21:03] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ9pfe2yNlorbihQirJcH6Lah4XBX9n4xqRt0IwFi1SippopqRozewXslHNy3jLQlBbMPFbGRgE9xqY09b6lkgbb3vC-eXZs8uvDbO9j_zH8jgxgfbsi7xs8V8XSomWhjxNWYJBIcF-tu1JgroYIm-1C92KJJOJvbzKb2iMVE4rAAjoXhQogovojVFSOJaj6TyvuYUkWbENru9-fbc2v8AD31gDCV25YjVog2ICcVezoG4N917OKZYTGTfYJWItIOt_M_kz18JYXgBG8Hy604xXkJAJHgdBqqc0qN4T1zHURAuFS2giDWwBp2b-p7xS8DfoyVdqKE8O7swCtH9Ga6SMP5fW26QQoduq0hrtMDvktKcdb72bP1THfDZ8X8WXsejMpSomfL0im3bUK
+[2025-09-12 07:21:03]  -> OMITIENDO: El adjunto 'prueba.png' de este correo ya fue registrado.
+[2025-09-12 07:21:03] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:21:03] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc6adccbdd86: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:21:03] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 07:21:03] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:21:04] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ8y24vjumYbr3fggZiA73a86uYs6h4k0K_rZu155sZIIZAUbm8cxiRBBeQGpy3uKaPq5UPJskdxNQnBG3mktZ80UEv2QyIQ6Aa3nl6jLT8SyBIJzOUaGqR8Ds4LLuyRjFqoZ7obFmhAuaHCIyLQ2z9mUWr0Cqhtfob45cLx-bMvwfr0vUG1bPKv5Bw0jlFMrXen7VhLqYJCfYvPteI5SasIxrtoPHNu20kfp3mZe7yfBemVvTm55gmYXz_5ue8zZMyrBhw0wYefM9VMs7Wl1OmBtdcQ1cBcRFd93hbK_mFt7wap83nba4t9bv0jvEvhe0rHYJlEJF68rv1JpSX4eSVXeYPjGIA3QB5uzJgMNoyHL-bvWDlGEuq4816BVkajgNqgmrvN1t9GJx5-
+[2025-09-12 07:21:04]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 07:21:04] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:21:04] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:21:04] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 07:21:04] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:21:05] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_Ub1H7TMFNuwlGPeT2xYUCyAcOkcGGRVhG9PCihJuTPTueQPzpM6gNAmIs0UZDXsjqm2H7mbxuGBTGZsOezfl1Vtv9KOjyAwyWdTFstNWEijLDKRUL404y3l_Y1lWGw-22jHvOpEO6tFuFoRfrDM5qgm3XtS77s6o03dqd1upApb-J_UkF8wytwGbU85hIFrVhAXV11tdBrwgLarEbNqGZtWojqVMjnxvKp18Zvt6T1Ds0_k7QhPjeYyMLSXMIyBhDwfLXFzR8Y0Z-odrhuaV8kx7YHSj6x_lUxHQHqelTlvg8Ngml3kpmtNSnb0z4mhLjKLN4AHRSSFpOrsr2CMOKwnMr88PruBvBmqQCoTCJt1Y1wFzAFZucuxJr3BUl0Zd6l73Y3gnwfbhf
+[2025-09-12 07:21:06]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:21:06] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:21:06] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:21:06] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 07:21:06] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:21:06] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_PQKSqxjUGzWV5WniSnKLOJ9FSPp2bsLzqoyf234LSt27dakOxQNyP4DR_z-Ofmm4Ouyj_s_vLOg9ZrjsxHjoEGaKMOp9ZMDo3Ns-KM7ntBAx9yAeLpKTNK9FQ0ml6nQNv6kADxD-28-1yY3u4LIb9zXosV6VH8NKLDVOM64SFMli395BWVViEAj0cXrANcRV_JHcDKMcZF_SDD1cXI8ZbMEB8xgosinroTxHkhduW10RWN7KlEDgkHH7OZhpXtpDkyVNwadvufy-0spD_5Nxik2WxidWhXfB1c5XPQna6-7uCAdEAlxuSeWCwxNufgsxitcXymkyW14RQ-ntFcOzbcFn4ivteHlHQimyO_jLP9j0yIvtzo2FX70BRMLHdexh5m3l_wpj__DBN
+[2025-09-12 07:21:07]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 07:21:07] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 07:21:07] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:21:07] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 07:21:07] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 07:21:07] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:21:07] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 07:21:07] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 07:21:07] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 07:21:07] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:21:07] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias1@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 07:21:08] BUSCAR_CORREOS: ¡Éxito! Se encontraron 1 mensajes.
+[2025-09-12 07:21:08] Se encontraron 1 correos con facturas.
+[2025-09-12 07:21:08] Usando carpeta existente 'Facturas de Gmail' con ID: 31.
+[2025-09-12 07:21:08] Procesando mensaje ID: 1993ccc66d3b858b
+[2025-09-12 07:21:08] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:21:08] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ9xLqETvu9oixfZYqwkWgLcKCyu-E7LM8d5ZSkexEUTS6-Z13gzikyuX-8WxCgy8j__6BfPygiLxlpLMxf5K1wwW3rUgr-ZSD89zcPWGp3DNe3s2P4cvkD-6BzMrv-_C0xEMNLW70Jbvhx3ryfEyYGzgf5qNXP4Ol9fFkeEJYiLDN7CDSXwZknnmSEVDx_PDG9GcmrvSnRLAP1fpRZPhYAUEiqvuQREZEDap1fFV4eTuVWTXXBuk6Xe4iGFEZC5Y-EUqLEuf2GayJaAg8O8IPRHtMC2n-DLVyrTESsv-5Ox_u0vmTKmUbCPN-K7zCPWjr2g0N1gt5aoUngYQhJLVnn7q90-bW_1b3Jk2aDeRLblXBzGEDD1Adp2rYovinF4psVLSKmfgwVimnU7
+[2025-09-12 07:21:09]  -> Adjunto 'prueba.png' guardado físicamente.
+[2025-09-12 07:21:09]  -> Adjunto registrado en la base de datos con su huella digital.
+[2025-09-12 07:21:09] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 07:21:09] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ccc66d3b858b: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 07:21:09] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 20:39:21] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 20:39:21] Se encontraron 3 usuarios para procesar.
+[2025-09-12 20:39:21] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 20:39:21] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:39:21] GMAIL_SERVICE: El Access Token ha expirado. Intentando renovar...
+[2025-09-12 20:39:27] GMAIL_SERVICE: Token renovado y actualizado en la BD.
+[2025-09-12 20:39:28] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 20:39:29] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-12 20:39:29] Se encontraron 4 correos con facturas.
+[2025-09-12 20:39:29] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 20:39:29] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-12 20:39:29] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:39:29] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ9NMfzMmZqAk9gjx40vmFEdVsY6v_QvcXYxtqNCMsY0i7HQRwqcghRwFfTIuZDDa7TvKxthbiPeQYlGEprXUbVDekfUmsGikepBRixgnt8NNjwH7Jbr35VQBmGppG6zw6RPRt_EcGVw-Xg3fEMfbYZEF5yWnY6565dggEE7PZ9ZCEex3PUe4pScPHoUQ4KxAYuUhJplEn-6rxDMN4PcktnkGLiArnf_1yXqE64wG9Sh1GujQ41hSXirEyk86iJnFH4V28s8jLsDkCatz7pdDDa5p8C9YL4vkU5BOwaovMLdHfsyLI39kmOEyE4yVVQsruY0aB_d6-tDVQBXI8FPsA0jV8lXZuRUYhvsZZojmmK5Dz0XvdBKP6UNrQryACSYc5dLU-GHvqgHPnwt
+[2025-09-12 20:39:30]  -> OMITIENDO: El adjunto 'prueba.png' de este correo ya fue registrado.
+[2025-09-12 20:39:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:39:31] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc6adccbdd86: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 20:39:31] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 20:39:31] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:39:32] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ9SbqIP2y7t_CebgaGdR4meMC259vlYmc744HOuRWBvfhU4lOUNPvwbYLWgtZVCrcFqNlfs0bWN5sLk2PCJjLQBapTzdOn0X5fhN5NkKhAAihszviI4KkmjICxbDXHvvld0XYBnExO4Y0SQEWPnxpQDsPEggtJil9u8DVStS71Bw-nr5eI6jhWm64_BXrncSe8WvA8rJAwx_Y6bAyS0S0MIG1ow8l4wELDTD8xC2hfOmbEzXUHHvWWW5R2U20cFMJcwjOUuI3aJJOsX-9R5mmLoepKzdqRSMhXyZaN9q9noawxVx3DdOIo_lBzW44y-XAIw2JkbRrLXjuSMOmlo3oMtcNSKyh3_uj9Nmb3GfA5_pRbgyQ719rAlWq-h0NWJBbUKjjqr6au7DqL8
+[2025-09-12 20:39:32]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 20:39:32] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:39:33] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 20:39:33] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 20:39:33] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:39:34] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ_5nk-mKWbTXTvYqO_pJtpKNeYxfP0-cb26KTliKgCEUHxs4p3aWGAut28fta7desWROLxzQ7wraZGGWPJFuwT40znLu0FR48KVWBXDRyoFSPN7fhnUtEuCaSML59yHj2e4AGNpopshAuUqgHIaZjP_j4yj8oGps_o_MHqPjReKMtfOP4onH2N5DCCqvVk5i4g0Z8HHI2dsCjt8y-Y60rRAPc7YDcnMWjmzRkCYbdQwT4v-nWV8B04zkrnRW48_g1z-4xq3QCtuo_Lqxt-NPhUKh0C8beddyki5-QZk6JjENzHgLkV6EA8qsubZqUOv8UQmTgKDmatVuaJ6v3NuQ0s7L890miwqQnDNvrGwPNOK3k-3S8o-CCInTOjTnzN0CudiL9OlRcpnZxM6
+[2025-09-12 20:39:35]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 20:39:35] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:39:36] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 20:39:36] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 20:39:36] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:39:36] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ-ma53JRzZhwI3rcaAPXEtbbhff62kJp8AImP9zoYQ3OXGHwFYOuRsuk3Hgq2izpwHxlc7xzZE6EbRDD0IVrhxKFzwylgfnMyOyhNLfOkcw881alERM_KhHaNUjH74N-yMr6we29b-0U0iAl-bT8AZYiQV29TyJK8tGpFCtZJhzJDXfkPECwzUzt6HJPOIcRNVWfIJbpySBlN_v6a_ydAh7Z404g8UA8o7TGiPM4Cqy0qEVburop7e4VytlQTCG-qc6cca8wdQXXi19eYsU7b3DibVffBnwPyTpbxgnJRsAHishbWXPbAeyKjs-tTzmAaYIL6sk3EvNUr9ThJBzN3jOgFqatCGmy-M0d2juMNJP_Jao6NpEIdkzVMqoR7lJQS6KqO6xSIz50Kim
+[2025-09-12 20:39:37]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 20:39:37] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:39:38] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 20:39:38] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 20:39:38] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 20:39:38] GMAIL_SERVICE: El Access Token ha expirado. Intentando renovar...
+[2025-09-12 20:39:39] GMAIL_SERVICE: Token renovado y actualizado en la BD.
+[2025-09-12 20:39:39] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 20:39:39] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 20:39:39] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 20:39:39] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 20:39:39] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 20:39:39] GMAIL_SERVICE: El Access Token ha expirado. Intentando renovar...
+[2025-09-12 20:39:39] GMAIL_SERVICE: EXCEPCIÓN CRÍTICA al intentar renovar el token: refresh token must be passed in or set as part of setAccessToken
+[2025-09-12 20:39:39] BUSCAR_CORREOS: Cliente no autenticado. Abortando.
+[2025-09-12 20:39:39] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 20:39:39] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 20:40:30] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 20:40:30] Se encontraron 3 usuarios para procesar.
+[2025-09-12 20:40:30] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 20:40:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 20:40:30] GMAIL_SERVICE: El Access Token ha expirado. Intentando renovar...
+[2025-09-12 20:40:30] GMAIL_SERVICE: EXCEPCIÓN CRÍTICA al intentar renovar el token: refresh token must be passed in or set as part of setAccessToken
+[2025-09-12 20:40:30] BUSCAR_CORREOS: Cliente no autenticado. Abortando.
+[2025-09-12 20:40:30] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 20:40:30] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 20:40:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:40:30] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 20:40:31] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-12 20:40:31] Se encontraron 4 correos con facturas.
+[2025-09-12 20:40:31] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 20:40:31] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-12 20:40:31] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:40:31] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ-j53k3smVbh4iAg5292LNC98zNx5ef-MQjkPTEYFft-96PMNsFGIxEVeg3CgHzhV2hTwML2xlfTU6vZllyCFBEnOpK44RdEEIcrpUqNaePJkIAlIWtbP8BtLcN4GZlYIjOxPcrenZsA8XtkLRl-FF1aurQBjh57poAbJih8WKxQl6vtgYJ5rZewpHmTrAc1SrEzpLaV4vXIyBlVIu1GqDvX1KRQWHo-2SN2WwWXM-k_zu8Su9Sp03Egv8Xei049ilXkPy2gmOnuD3UdTAhUc5hej6OfOpIvTo71ZYWXaS1p9l-gyt3P48FnpyHrFnwlHGXMTUMaCv2pMuh9hlxNRkE1_0kB_syz4mLnchAIExu2KRt8VnaXvwfDh-cWEJTPIZiXd1um6angLrd
+[2025-09-12 20:40:32]  -> OMITIENDO: El adjunto 'prueba.png' de este correo ya fue registrado.
+[2025-09-12 20:40:32] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:40:33] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc6adccbdd86: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 20:40:33] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 20:40:33] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:40:34] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ-qtIMcWNGVOVTYNJw6X8AD7zM2ALJsApyjvt92QH7JTSEb6oo_48IP3caBSFvW0MTXlM8r5U76B9IJmxw7h2qNPzm_6tWvjQufZmiLzC2lwKIyGOV_5U-Jdbb3Rcxr3atGuH_qSyAQzJ-Ssun4EKQDl1EsoMR-smH5-7CQ-M3W1Zs24ZFHn7zocb7VSJOdPbvwZrhPhWCKMgcr8cWy58mp0fksF5QYDHgimS-9dJnfXqBWVPxkz6JRcF8MIBP1lTAx_rYMgim2R812ogC_y1EpA9PIJMssdt_VtpJmX8OfxTmzM9s214q-GU2WZ9rhzF8ru2sqV2iEAxA3NCTGvNf--ucu8Gmtsi39dPWGa8CCLT-1B7Qsv1qBkWq33lRVucnmhqWIOrldfk3H
+[2025-09-12 20:40:34]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 20:40:34] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:40:35] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 20:40:35] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 20:40:35] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:40:36] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ-82pna7aWuW7rZuz9D17D7d9uwEB07Hm4fcV-tWzdPfAxrjah-D5_C_w3GmOooej5A3K6M1jGJg9rvicfoM1Jje_sjN4yLvi8c4hc1Smw5BtDCjX1sO8fR5Th6cPQjkIbEfEJsVgimIPB0BS-p6KB7cepgAQFbKLqce2W4xvBJKNt6ivPPlO-PRvaFVsmoOtiwBCbSNTPWSboK3f6dORlYzfmkZ9pxbDzjRY_ikY12vGyE71T9XDcOZ4aA-iY_NVSHB6G2DAKD75taQyOFsQkZ4FiJ_1QlLnnlqw7MqjCUJN_qAxMrnS98ilJC0wuTAtcje9Mdlo8Ncc9e7jllaLsLNNsMfXLIK-ou3ITC_FKDD_-3MCa-_2eKhaNTvaWjaScL4embTGy7gV07
+[2025-09-12 20:40:36]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 20:40:36] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:40:37] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 20:40:37] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 20:40:37] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:40:38] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9eFwV7ayLBTRTyiCla1frZB4lliueUw09DUhK1sPAYiv2Z1Uf7kWyAInPmPC_NE6OPBc_u-c4filwrat5_kj9eciS-nCdQu1Fi51rbXR0mb249VJx9nMrOPTSTJD5yBr60HtkJuvhnxx2d34mrhZjAzgeTJ8lJh6VFM5TotUFl8ghx2HRUBRq3KKN5ereHS3ojjTSCMhqHly6d2CsRmwncjr7sZoCnIyyALLl_GwOhatrFwAJ208kk2zdjW-s4a6jO1NMK4oazHCHNxrf9qORMiCxrBDfwHEmjJfwKNu4Mix2vjy3rCMOd5c8U0xmyO6iN7CNzuJAYeaxODS4uoXzMXFhEu6xHo37ir_3KkMORUAkFz15zdnGHmB6qeKrZVM6ltQzGdhW3dOxT
+[2025-09-12 20:40:38]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 20:40:38] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:40:39] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 20:40:39] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 20:40:39] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 20:40:39] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 20:40:40] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 20:40:40] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 20:40:40] ===== PROCESO FINALIZADO =====
+
+[2025-09-12 20:55:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 20:55:30] Se encontraron 3 usuarios para procesar.
+[2025-09-12 20:55:30] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 20:55:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 20:55:30] GMAIL_SERVICE: El Access Token ha expirado. Intentando renovar...
+[2025-09-12 20:55:30] GMAIL_SERVICE: EXCEPCIÓN CRÍTICA al intentar renovar el token: refresh token must be passed in or set as part of setAccessToken
+[2025-09-12 20:55:30] BUSCAR_CORREOS: Cliente no autenticado. Abortando.
+[2025-09-12 20:55:30] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 20:55:30] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 20:55:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:55:30] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 20:55:30] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-12 20:55:30] Se encontraron 4 correos con facturas.
+[2025-09-12 20:55:30] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 20:55:30] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-12 20:55:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:55:31] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ87UrOKGRnodaX8YLV-qZk-34rjeMTn1yAtKNN3NQPsdOnVGPHCCJOG8WEqwr5U21crGS4Ub56FYmcO8uS6s5cwRyM4P9Sje1JRSieGRPmEwGLa7LEwQfNhWUsK7V70SgeszIH1HP2NRBldypMjGRBEtgdcvha-AW0oh6YLNMT7thB6rt78w1ePHaHcfcCAoRp6nAskOQ0J_i_8X7DDQFfe5CgZjrNLrSbApexnxV-DVR8Y2SFocHx8lvRIPFjE1uTDiyHpQdfX-FCFcsO87Ec49QhmNM6yub8_QjgsCxjH_q_jOCqePqrjzV1SzuGzqOPZVnvmBkkueKWouvI3y9GD4BLmTKT4xP3aKOgj9CxFNTpswmPky0AYmTaTzVJcRFd34RfPa7z_Y0fi
+[2025-09-12 20:55:31]  -> OMITIENDO: El adjunto 'prueba.png' de este correo ya fue registrado.
+[2025-09-12 20:55:31] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:55:31] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc6adccbdd86: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 20:55:31] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 20:55:31] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:55:32] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ_v5MGkNcNr_F3S6F77LU6oq6BbRBtjXM7JIF451agS8-G3At5Mb0FCR87BYXxnEf9Gb0sXkdW-q6BJ7qjhEk5W5SLxWVOinx50sYccp-LV9-LsovmYkSHa2kcVBU3D1MJRIELl9dzUd8Y32jMPxiKqA4h15IeJ4TfTzw22abpV8zGwTM2_4mqKuboqHbnN2iA3VCR1gSFQNR5Cbe2r8mOj0Dp9isXtSiJJxd07fY61etWXWoGbulC5WBBlsq8ltJRJiMH7HBY57uwNjjtllY6egNKi2oEVf_aq-f93C9QqbNf3nTrk40sbmbgz9zgrt69rEIewzlmtpI8pKouXG7JUj4GH44X33hP5yeTQNoJ6GXir-pQoea35pGRgSMJ4gMlR0SpDr_Fr6Yev
+[2025-09-12 20:55:32]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 20:55:32] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:55:32] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 20:55:32] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 20:55:32] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 20:55:33] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ8OIQqhP1-UlFYklfVoJRfRh-9HOka2rVbynaAq82bpM6WgB8f-5PoLwrGYY9PbeaZB1ioBeugPumMxocm-Mvll2lV3MZUcryZUuAyHzO-IYZpO_mD536hcyQk6AXySQVgu59x72QvTtw2W6nUvy1RT7Cabq_3UUeZuooFdMT0rutanGY26BSufVxhTVo0oO7BTlR3xtQ7sSAYFvEazdxdesQtL0fPajmdXc1juPTBHSPt-uo35tFspbZzlIcB-Yq0FPq61Zhh_2KmMQ9cbj9oTCpYICwdR8aZIOPla5LpOg0RAFIgDtlbyUkkCKz2_Df144B6c9YUYcB-GQhJWTBV0-3CJFPCczcqTSkZ-ko_JNEy1A7em6r9NaEJuu-tvBkskyR3KUMzE73vq
+[2025-09-12 20:55:34]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 20:55:34] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:10:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 21:10:30] Se encontraron 3 usuarios para procesar.
+[2025-09-12 21:10:30] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 21:10:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 21:10:30] GMAIL_SERVICE: El Access Token ha expirado. Intentando renovar...
+[2025-09-12 21:10:30] GMAIL_SERVICE: EXCEPCIÓN CRÍTICA al intentar renovar el token: refresh token must be passed in or set as part of setAccessToken
+[2025-09-12 21:10:30] BUSCAR_CORREOS: Cliente no autenticado. Abortando.
+[2025-09-12 21:10:30] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 21:10:30] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 21:10:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:10:30] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 21:10:30] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-12 21:10:30] Se encontraron 4 correos con facturas.
+[2025-09-12 21:10:30] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 21:10:30] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-12 21:10:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:10:31] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ_1va0l2w8QUWNRAB8wR7GJM4hWA1k4GNpFeu19nXXJrJiGkFpjeHuLxkREeBSWPaRvxJgAvx5lW-lsSDKPtv_4ruCMi9vdH_zVaRqxy3b2qdx8TNTSBFRrF8H2m3wWBFs_ySkkqD1YgIjA5uUqtkPnVEAHO3yGMBws4MsDdLD49cxv976uz9jt2s5ld2Q8-kD3bbWZw9QMl53NYY1C8CLcypq0hV9E_RVlal3o_ccodR6G-61L1oPmb95YAglrPEL7CR9F2aQT2Jev-fR_vyz4itR0Ph5mfSQY3mOmuH728M9l9LQBtruHeYb3g_qVvvpQrmtxD_IoKEaSz74RpNYKIC6OUh2kh_QtwdFNsWyOiQuQLztdi-qGd65wlG_orCmcGnZ2f0fOb2YW
+[2025-09-12 21:10:31]  -> OMITIENDO: El adjunto 'prueba.png' de este correo ya fue registrado.
+[2025-09-12 21:10:31] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:10:31] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc6adccbdd86: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 21:10:31] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 21:10:31] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:10:32] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ-l6bL0DpDPsF53YWtR9Vfr483nlBa7QWjnmLh4_W8d-kLITfN8w8HGhyeCNNKfX4G9iL8UMPmU--jPVs5M7rY3zRxxYK-oK-5tqMEINHAABHwMl-E2N1-i4e2axZWBVYzRaIl82j4Rw50e_e23m--lfhNPKT9P9Dy3ceU07lh-Tb9Vi4jB9bExxBE0oJWwJ_GGdd2Bvqfc7i9Yyc3IelqQBKqyfGFlXGO2LlH8nFskILot27RjT-6GVfas6HkDfEzuf3m7uNisLP17hoMrWF72eFN_N7-wAp62IeDtdG4QBtL5Btrx7Hf_kGkoe2Xjn6rDofkPJUid16P2NhUUyMT0BUW1J6E1_06oHXV5TrmldnRI4hUYtXnMWgO5YsKNHxUSkEv6fGYCLCvo
+[2025-09-12 21:10:32]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 21:10:32] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:25:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-12 21:25:29] Se encontraron 3 usuarios para procesar.
+[2025-09-12 21:25:29] 
+--- Procesando usuario ID: 2 ---
+[2025-09-12 21:25:29] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-12 21:25:29] GMAIL_SERVICE: El Access Token ha expirado. Intentando renovar...
+[2025-09-12 21:25:29] GMAIL_SERVICE: EXCEPCIÓN CRÍTICA al intentar renovar el token: refresh token must be passed in or set as part of setAccessToken
+[2025-09-12 21:25:29] BUSCAR_CORREOS: Cliente no autenticado. Abortando.
+[2025-09-12 21:25:29] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 21:25:29] 
+--- Procesando usuario ID: 4 ---
+[2025-09-12 21:25:29] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:25:29] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 21:25:29] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-12 21:25:29] Se encontraron 4 correos con facturas.
+[2025-09-12 21:25:29] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-12 21:25:29] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-12 21:25:29] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:25:30] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ-wO-8mrLOWpaBZXHoCdBoxrcFEsJV3TkrPN05hyn6-JPDCT9Z1LJ2tfZ_l20kwL26dNrrG1dRlNlALOdSuAVa_9jq3wYjWbgrdgtcNj72RwcIlcYqXZheoJ9fIAj51-fCnn-5LDg8wFMWEZAZwL1-VqB0jXLbiG_focM33b6CizPWULgRwqf2tuDjZjyZCu6IsA4asKEWL35XWl4MnxcGU4omNjQ-chPnjktMlnkttMQCUKF0XeOwkBMV0_k9GndLs3GbdyJ4iMvDmlTyHO5tb_cxsbwQ6ZYXUsckRSsBHW1UoCoPIfVajgJPWk2y8r8yeo163E65O4uqJ568z-FOiTMT9eTHP8i4mwIkobicSoK1NBj9OaHhUVc5V6cAcrloH6SvgM7fiN7Uw
+[2025-09-12 21:25:30]  -> OMITIENDO: El adjunto 'prueba.png' de este correo ya fue registrado.
+[2025-09-12 21:25:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:25:30] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc6adccbdd86: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 21:25:30] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-12 21:25:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:25:31] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ-p8F7QRslQDEU5ZqTaw1FFO6Nn0Qaf9XdsDgFmPZOz0M4gBtYOJw9k6_VWihD5APEgjnMm39mfLeyGXaX41P0ZYEHUkPOG9z-fODyc4Kz6Ah94krgtEKzplpCi1ljPiwrCAqxf_dss9UbPDZFkN0UsoxzSAr4qmjVl0iZkvnPJ2bMkkKZRlnOT3BVVmkJ9oH0nU1LcA9Q50teSVHp9emaCrqmvC0sjplXR4Q4wgvUC2DVF7FUfEv2kodL7DkFwHE8g1MtP52E0w3CHd_EDkMbivOp5qXr9i2xK0ZckD1YMioamQE3uZZ7CXH5CdCU2C0PyHsIM5dWQavTBmQAGcySB7FuDhEtHgW0pcwaFM52k43S64Um1TGEG8L4n7pZ-SUV1ktEBqnFfzAzZ
+[2025-09-12 21:25:31]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-12 21:25:31] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:25:32] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 21:25:32] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-12 21:25:32] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:25:33] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ8b-HGJ7FPr23BXQhCx4TkX6MiJGmdD76OgBlYzJ0BGmxvuL5wr_2tGic0W7gnd85YmpZI2YloyJFKYax7mDsQoMaaxHsK0MBYjWh2abMtyz6kRbmqBSLkCmjoydVvxDL1lPTqBVu_xIl5xH86_7HjFabopOUU0DK0uQrq6N4UT2m7y-jQzClCTQHCKa1rm0755TJlzpclOzHthZrz36PZZhVfycliWEF6KPK1TZOnEQlDi9TmAo9hrKPQrk_clug8CnBiLvxWy6H1OkoOO5ExeWPlFkm25xThGja5GRHtu_Om2ojrG1eEYb4ZUTbsVavsmkB7bjvrphyqMtbDk8Ixvh8qWkbOQGnJSLgNTQx0Wt6ZJqBL1vQntrt1SoB5tbTB9BvqKZRDkBcYN
+[2025-09-12 21:25:33]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 21:25:33] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:25:34] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 21:25:34] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-12 21:25:34] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:25:35] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ-AY5wd0cJ-vpRnJavwLxXsztq7bCrGM2gfHJP-gTG5KRu0sJzMXCKN6MGjezK8wUZ5gBEeNfv35-1JnvedhkPOHE8DzD7ECdZRuCFFPXPG1PxD0P9D_ILPUPNpYM49uezsVs3-MDleQ1PBaIvVyn6HXcevHGhotlIYhgTHFiqd9TA3WCo-hTSZTdLRFIMcPFnAs_LL5S1GtaOKMvy6_e04Vs33gdkJtXeeQxxFJOuU4IvBTG1cOPBzQNRO21NzpwQht1yQkbT0Ht2Bn59jP-BrcV2IaGR_3XMQ6xL6RpfqufeaBAZ3Wq2bv5nBgm3DuZoC0J87jknzq0NjD66ZHOJkUNsWSBHxt5oFygKOYltg3dXP5MDQCLj0ieNDEZa_aCe4pN3qUTYcrKNy
+[2025-09-12 21:25:35]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-12 21:25:35] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-12 21:25:36] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-12 21:25:36] 
+--- Procesando usuario ID: 3 ---
+[2025-09-12 21:25:36] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-12 21:25:36] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-12 21:25:37] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-12 21:25:37] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-12 21:25:37] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 00:48:05] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 00:48:05] Se encontraron 3 usuarios para procesar.
+[2025-09-13 00:48:05] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 00:48:05] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-13 00:48:05] GMAIL_SERVICE: El Access Token ha expirado. Intentando renovar...
+[2025-09-13 00:48:05] GMAIL_SERVICE: EXCEPCIÓN CRÍTICA al intentar renovar el token: refresh token must be passed in or set as part of setAccessToken
+[2025-09-13 00:48:05] BUSCAR_CORREOS: Cliente no autenticado. Abortando.
+[2025-09-13 00:48:05] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-13 00:48:05] 
+--- Procesando usuario ID: 4 ---
+[2025-09-13 00:48:05] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-13 00:48:05] GMAIL_SERVICE: El Access Token ha expirado. Intentando renovar...
+[2025-09-13 00:48:06] GMAIL_SERVICE: Token renovado y actualizado en la BD.
+[2025-09-13 00:48:06] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-13 00:48:07] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-13 00:48:07] Se encontraron 4 correos con facturas.
+[2025-09-13 00:48:07] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-13 00:48:07] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-13 00:48:07] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-13 00:48:07] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ_jE7rzah4Wy1r-GNkmP4XDeb7K9rCUQYi99krh5cn2SIrbM3IsIfss5qgkdK-PHhQNIq3UgKdgtGkiWlyHyp-Loo-HTWx8HQHBE6DNS5s-pSP3-T1q-9FQ8TWaKXYGKDK1GxbKsI1e-tNe84A-FpZlJHxj6EQngHDIOu2GpBAUtIcPnVp4o5xA9K-WsY3LDPUKVP-digSWFaCENn6poGOvUBOmCs0zQ5OUxr3HZj6VBZ0a3omdyJl_Av8gdGOke947vx5w5HuQJ88fwHhdjP1apK1t41DIsY3e_7S7NARtbfSux-VK-a6hK5VIpvyDii86cLX-rnVlpn_7jpH5JLo0x-7dx9WfklxNGZa01iTh3YCw60egxo3Kc9PZl6d_nH7x94cTV35_d6Tt
+[2025-09-13 00:48:08]  -> OMITIENDO: El adjunto 'prueba.png' de este correo ya fue registrado.
+[2025-09-13 00:48:08] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-13 00:48:08] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc6adccbdd86: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 00:48:08] Procesando mensaje ID: 1993cc4de11090e3
+[2025-09-13 00:48:08] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-13 00:48:09] OBTENER_ADJUNTOS: Encontrado adjunto 'cron_log.txt' con ID: ANGjdJ-NPRNUevqEYHn-z5-NpQTwN3dUzQnZChNnnvhzI1zVLPeVRRJ2dGfognR_Om04_G6zSnZUOAB4DUykoVoIl8AXBeisOfcjxDEOe1Oiekxzf1SfxfQCgADATXIEExBRZpPSGtsHuO1CZiS9MaQY9QsSkUf9NrsX5AA_5w2spi43VHY-0FZxxMc109nOHyMryyKrFP1JJfW7QYz76v8EJWtqZ5HqXLWgY2ZYvty3d7EnlCXFojfqdLyZmkrlxQnOEEC3SgBUmYrUpf5iSV11e4OsMLkbpKJQfVHIeTJk1dbvDV11El4se7--6s2qrymYXKj_FT92YCgfvOxaWwwkrchzqFGAyD1V4q2-U9ne2w9edbqlgx7OxNXOBvKWzTy2u0CoeCFaC5BSxIr2
+[2025-09-13 00:48:10]  -> OMITIENDO: El adjunto 'cron_log.txt' de este correo ya fue registrado.
+[2025-09-13 00:48:10] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-13 00:48:11] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cc4de11090e3: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 00:48:11] Procesando mensaje ID: 1993cac16f5a613c
+[2025-09-13 00:48:11] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-13 00:48:12] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ9VA7qfGa0K0QxCeX0l0kvSkP_FSwvFPSLEwTKyJMvrcxPBF2y_FQAf4h9MJo9_psmCcSyMeeJewlwUKXQcqCHvDburxbpIeBQM9xOhRTZyS7sOuqbXKhqOXqSvUJM6RJeLPvybkUF4OcNYv_ROopYVlwDFYwYFsyQvWQwz2LmfUzZBMOm-prOuOK21S-DeHLsSiq2jtShzAo9PH75fzPTlvDQRbXPZ29zIkifV-_vIbcOz3VtoG5abyS4_lRZ9S9I1CkA5jcUF2Tf4ziFSVg0a8yrR-Ne-onfiaWEdAd4AlggznmwjYD8JWj9QgJI1yyU5LZLzP9GaXc1ktaS8kJYh3os2ZOGuUfan0uZAwPHTCzacvdIG-JY-A-whJxegwwDX9oRrBzLMF4bJ
+[2025-09-13 00:48:12]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-13 00:48:12] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-13 00:48:13] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993cac16f5a613c: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 00:48:13] Procesando mensaje ID: 1993ca3b43ce3fcb
+[2025-09-13 00:48:13] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-13 00:48:14] OBTENER_ADJUNTOS: Encontrado adjunto 'FACTURA.pdf' con ID: ANGjdJ-jqShC0sxKpMqWQrRxISYqDmS7IQFsFEdNT__8QNHGH64Gqj7ThA8FOdcuIORtLK57OP7P8mtFAcbL7Ez9uSk0feIO3KKm8MUHcoJfMdh-65CLfqWIa-AePxMYQgqiRyXnvIgV4n7ZC49FcvrXBg4saa4WScU--lpeQaGJVtCSQSB5g8cFyvhWW4zgTj46rhUzbDOb235cahwEMN6gYvs75Lj_9940ZY57W48SHkHCzmduC-v7fsVYPspeLCEwXTclsIdd5O4VN574ktuP6S8DwPbarKHPeCYpLllk5cYcJZs7o7ircdKSmnwFDobFXsSxoI9evUb6BpznYS3VQutVRjh0cU_8-XV_IjEozfczoGFbYSeaiPSvPcSJeXWAIX4ev76dQ02HOH2f
+[2025-09-13 00:48:15]  -> OMITIENDO: El adjunto 'FACTURA.pdf' de este correo ya fue registrado.
+[2025-09-13 00:48:15] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-13 00:48:16] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ca3b43ce3fcb: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 00:48:16] 
+--- Procesando usuario ID: 3 ---
+[2025-09-13 00:48:16] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 3
+[2025-09-13 00:48:16] GMAIL_SERVICE: El Access Token ha expirado. Intentando renovar...
+[2025-09-13 00:48:17] GMAIL_SERVICE: Token renovado y actualizado en la BD.
+[2025-09-13 00:48:17] BUSCAR_CORREOS: Ejecutando búsqueda para 'solayitapias2@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-13 00:55:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 00:55:30] Se encontraron 3 usuarios para procesar.
+[2025-09-13 00:55:30] 
+--- Procesando usuario ID: 4 ---
+[2025-09-13 00:55:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-13 00:55:30] BUSCAR_CORREOS: Ejecutando búsqueda para 'gadgetcol22@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-13 00:55:30] BUSCAR_CORREOS: ¡Éxito! Se encontraron 4 mensajes.
+[2025-09-13 00:55:30] Se encontraron 4 correos con facturas.
+[2025-09-13 00:55:30] Usando carpeta existente 'Facturas de Gmail' con ID: 32.
+[2025-09-13 00:55:30] Procesando mensaje ID: 1993cc6adccbdd86
+[2025-09-13 00:55:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 4
+[2025-09-13 00:55:30] OBTENER_ADJUNTOS: Encontrado adjunto 'prueba.png' con ID: ANGjdJ_duRtqQS2RiD3G0lgpNIIQiihVOfEvuqnB_eXjvgnkXx4JOmyMER58yDYVxDDEEDPu9eVVSrNV5IRp8NdZDRArquSsH5JjMb544PcpoYLH4RsZ45ZigV0sj-oCVvBmiWhDARJEVXH9HtIgv37TjPo05t4xcjp5VQefPpqRjtG5Fcn-bcUNm4rtNvEd81HM-_xBMM9iLKSXt3r7cLMEDeT01HKedQYjevTJtT8vyct6x9GHXKKZA9iftHdvoQeuKgdJnO2JosDV-Ge1HMXbP-kwxUduSUiI-pupsChTjJPiFfwrdwjlOVJyZ-ugl_rMjwEMk-aHGH-YQaBYPbjJN6kb_j0aQMsDv-iHNdIv0249Kdap8N2AbDZkw3OCtgzNDEjxTV6RDkk66bfU
+[2025-09-13 01:10:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 01:25:28] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 01:40:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 01:55:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 01:55:33] No hay usuarios con cuentas de Gmail conectadas. Finalizando.
+[2025-09-13 02:10:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 02:10:32] No hay usuarios con cuentas de Gmail conectadas. Finalizando.
+[2025-09-13 02:25:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 02:25:32] No hay usuarios con cuentas de Gmail conectadas. Finalizando.
+PHP Warning:  require_once(./Services/email_service.php): Failed to open stream: No such file or directory in /var/www/html/gestordocs/Models/UsuariosModel.php on line 14
+PHP Fatal error:  Uncaught Error: Failed opening required './Services/email_service.php' (include_path='.:/usr/share/php') in /var/www/html/gestordocs/Models/UsuariosModel.php:14
+Stack trace:
+#0 /var/www/html/gestordocs/Cron/procesar_correos.php(30): require_once()
+#1 {main}
+  thrown in /var/www/html/gestordocs/Models/UsuariosModel.php on line 14
+PHP Warning:  require_once(./Services/email_service.php): Failed to open stream: No such file or directory in /var/www/html/gestordocs/Models/UsuariosModel.php on line 14
+PHP Fatal error:  Uncaught Error: Failed opening required './Services/email_service.php' (include_path='.:/usr/share/php') in /var/www/html/gestordocs/Models/UsuariosModel.php:14
+Stack trace:
+#0 /var/www/html/gestordocs/Cron/procesar_correos.php(30): require_once()
+#1 {main}
+  thrown in /var/www/html/gestordocs/Models/UsuariosModel.php on line 14
+PHP Warning:  require_once(./Services/email_service.php): Failed to open stream: No such file or directory in /var/www/html/gestordocs/Models/UsuariosModel.php on line 14
+PHP Fatal error:  Uncaught Error: Failed opening required './Services/email_service.php' (include_path='.:/usr/share/php') in /var/www/html/gestordocs/Models/UsuariosModel.php:14
+Stack trace:
+#0 /var/www/html/gestordocs/Cron/procesar_correos.php(30): require_once()
+#1 {main}
+  thrown in /var/www/html/gestordocs/Models/UsuariosModel.php on line 14
+[2025-09-13 06:33:30] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 06:33:30] Se encontraron 1 usuarios para procesar.
+[2025-09-13 06:33:30] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 06:33:30] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-13 06:33:30] BUSCAR_CORREOS: Ejecutando búsqueda para 'sol@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-13 06:33:31] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias1@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias1@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-13 06:33:31] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-13 06:33:31] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 06:33:33] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 06:33:33] Se encontraron 1 usuarios para procesar.
+[2025-09-13 06:33:33] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 06:33:33] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-13 06:33:33] BUSCAR_CORREOS: Ejecutando búsqueda para 'sol@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-13 06:33:33] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias1@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias1@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-13 06:33:33] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-13 06:33:33] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 06:35:01] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 06:35:02] Se encontraron 1 usuarios para procesar.
+[2025-09-13 06:35:02] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 06:35:02] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-13 06:35:02] BUSCAR_CORREOS: Ejecutando búsqueda para 'sol@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-13 06:35:02] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias1@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias1@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-13 06:35:02] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-13 06:35:02] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 06:40:01] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 06:40:01] Se encontraron 1 usuarios para procesar.
+[2025-09-13 06:40:01] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 06:40:01] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-13 06:40:01] BUSCAR_CORREOS: Ejecutando búsqueda para 'sol@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-13 06:40:01] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias1@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias1@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-13 06:40:01] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-13 06:40:01] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 06:41:21] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 06:41:21] Se encontraron 1 usuarios para procesar.
+[2025-09-13 06:41:21] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 06:41:21] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-13 06:41:21] BUSCAR_CORREOS: Ejecutando búsqueda para 'sol@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-13 06:41:21] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias1@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias1@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-13 06:41:21] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-13 06:41:21] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 06:43:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 06:43:29] Se encontraron 1 usuarios para procesar.
+[2025-09-13 06:43:29] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 06:43:29] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-13 06:43:29] BUSCAR_CORREOS: Ejecutando búsqueda para 'sol@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-13 06:43:29] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias1@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias1@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-13 06:43:29] No se encontraron correos nuevos que coincidan para este usuario.
+[2025-09-13 06:43:29] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 06:44:38] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 06:44:38] Se encontraron 1 usuarios para procesar.
+[2025-09-13 06:44:38] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 06:44:38] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-13 06:44:38] BUSCAR_CORREOS: Ejecutando búsqueda para 'sol@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-13 06:44:38] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias1@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias1@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-13 06:44:38] No se encontraron correos nuevos para este usuario.
+[2025-09-13 06:44:38] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 06:44:53] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 06:44:53] Se encontraron 1 usuarios para procesar.
+[2025-09-13 06:44:53] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 06:44:53] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-13 06:44:53] BUSCAR_CORREOS: Ejecutando búsqueda para 'sol@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-13 06:44:53] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias1@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias1@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-13 06:44:53] No se encontraron correos nuevos para este usuario.
+[2025-09-13 06:44:53] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 06:45:01] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 06:45:01] Se encontraron 1 usuarios para procesar.
+[2025-09-13 06:45:01] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 06:45:01] GMAIL_SERVICE: Iniciando autenticación para usuario ID: 2
+[2025-09-13 06:45:01] BUSCAR_CORREOS: Ejecutando búsqueda para 'sol@gmail.com' con la consulta: 'subject:"FACTURA" has:attachment is:unread'
+[2025-09-13 06:45:01] BUSCAR_CORREOS: EXCEPCIÓN al buscar correos: {
+  "error": {
+    "code": 403,
+    "message": "Delegation denied for solayitapias1@gmail.com",
+    "errors": [
+      {
+        "message": "Delegation denied for solayitapias1@gmail.com",
+        "domain": "global",
+        "reason": "forbidden"
+      }
+    ],
+    "status": "PERMISSION_DENIED"
+  }
+}
+
+[2025-09-13 06:45:01] No se encontraron correos nuevos para este usuario.
+[2025-09-13 06:45:01] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 06:48:47] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 06:48:47] Se encontraron 1 usuarios para procesar.
+[2025-09-13 06:48:47] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 06:48:47] Se encontraron 1 correos.
+[2025-09-13 06:48:47] Procesando mensaje ID: 1993ccc66d3b858b
+[2025-09-13 06:48:48]  -> ERROR: No se pudo escribir el adjunto en '/var/www/html/gestordocs/Assets/archivos/2/3/prueba.png'.
+[2025-09-13 06:48:48] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ccc66d3b858b: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 06:48:48] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 06:50:01] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 06:50:01] Se encontraron 1 usuarios para procesar.
+[2025-09-13 06:50:01] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 06:50:01] Se encontraron 1 correos.
+[2025-09-13 06:50:02] Procesando mensaje ID: 1993ccc66d3b858b
+PHP Warning:  mkdir(): Permission denied in /var/www/html/gestordocs/Cron/procesar_correos.php on line 78
+PHP Warning:  file_put_contents(/var/www/html/gestordocs/Assets/archivos/2/3/prueba.png): Failed to open stream: No such file or directory in /var/www/html/gestordocs/Cron/procesar_correos.php on line 82
+[2025-09-13 06:50:02]  -> ERROR: No se pudo escribir el adjunto en '/var/www/html/gestordocs/Assets/archivos/2/3/prueba.png'.
+[2025-09-13 06:50:02] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ccc66d3b858b: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 06:50:02] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 06:51:21] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 06:51:21] Se encontraron 1 usuarios para procesar.
+[2025-09-13 06:51:21] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 06:51:21] Se encontraron 1 correos.
+[2025-09-13 06:51:21] Procesando mensaje ID: 1993ccc66d3b858b
+[2025-09-13 06:51:22]  -> Adjunto 'prueba.png' guardado.
+[2025-09-13 06:51:22]  -> Adjunto registrado en la BD.
+[2025-09-13 06:51:22] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ccc66d3b858b: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 06:51:22] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 13:22:03] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 13:22:05] Se encontraron 1 usuarios para procesar.
+[2025-09-13 13:22:05] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 13:25:33] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 13:25:36] Se encontraron 1 usuarios para procesar.
+[2025-09-13 13:25:36] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 13:25:44] Se encontraron 4 correos.
+[2025-09-13 13:25:44] Procesando mensaje ID: 19941eafbf1d6db6
+[2025-09-13 13:25:46]  -> OMITIENDO: El adjunto '0f04cef847f849303dacf5dcf693584a-removebg-preview.png' ya fue registrado.
+[2025-09-13 13:25:47] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941eafbf1d6db6: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:25:47] Procesando mensaje ID: 19941e5f994fe021
+[2025-09-13 13:25:49]  -> OMITIENDO: El adjunto 'MANUAL TÉCNICO GESTORDOCS (1).docx' ya fue registrado.
+[2025-09-13 13:25:50] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941e5f994fe021: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:25:50] Procesando mensaje ID: 19941d998e77e84d
+[2025-09-13 13:25:52]  -> OMITIENDO: El adjunto 'descarga (5).jpg' ya fue registrado.
+[2025-09-13 13:25:54] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941d998e77e84d: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:25:54] Procesando mensaje ID: 1993ccc66d3b858b
+[2025-09-13 13:25:56]  -> OMITIENDO: El adjunto 'prueba.png' ya fue registrado.
+[2025-09-13 13:25:57] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ccc66d3b858b: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:25:57] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 13:37:03] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 13:37:07] Se encontraron 1 usuarios para procesar.
+[2025-09-13 13:37:07] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 13:37:13] Se encontraron 5 correos.
+[2025-09-13 13:37:13] Procesando mensaje ID: 1994344d2177b343
+[2025-09-13 13:37:20]  -> OMITIENDO: El adjunto 'Listado de Requerimientos Gestión Documental v1.1 (GestorDocs)..-1.xlsx' ya fue registrado.
+[2025-09-13 13:37:26] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1994344d2177b343: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:37:26] Procesando mensaje ID: 19941eafbf1d6db6
+[2025-09-13 13:37:31]  -> OMITIENDO: El adjunto '0f04cef847f849303dacf5dcf693584a-removebg-preview.png' ya fue registrado.
+[2025-09-13 13:37:35] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941eafbf1d6db6: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:37:35] Procesando mensaje ID: 19941e5f994fe021
+[2025-09-13 13:37:39]  -> OMITIENDO: El adjunto 'MANUAL TÉCNICO GESTORDOCS (1).docx' ya fue registrado.
+[2025-09-13 13:37:42] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941e5f994fe021: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:37:42] Procesando mensaje ID: 19941d998e77e84d
+[2025-09-13 13:37:46]  -> OMITIENDO: El adjunto 'descarga (5).jpg' ya fue registrado.
+[2025-09-13 13:37:50] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941d998e77e84d: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:37:50] Procesando mensaje ID: 1993ccc66d3b858b
+[2025-09-13 13:37:55]  -> OMITIENDO: El adjunto 'prueba.png' ya fue registrado.
+[2025-09-13 13:37:59] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ccc66d3b858b: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:37:59] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 13:40:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 13:40:32] Se encontraron 1 usuarios para procesar.
+[2025-09-13 13:40:32] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 13:40:33] Se encontraron 5 correos.
+[2025-09-13 13:40:34] Procesando mensaje ID: 1994344d2177b343
+[2025-09-13 13:40:35]  -> OMITIENDO: El adjunto 'Listado de Requerimientos Gestión Documental v1.1 (GestorDocs)..-1.xlsx' ya fue registrado.
+[2025-09-13 13:40:37] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1994344d2177b343: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:40:37] Procesando mensaje ID: 19941eafbf1d6db6
+[2025-09-13 13:40:38]  -> OMITIENDO: El adjunto '0f04cef847f849303dacf5dcf693584a-removebg-preview.png' ya fue registrado.
+[2025-09-13 13:40:40] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941eafbf1d6db6: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:40:40] Procesando mensaje ID: 19941e5f994fe021
+[2025-09-13 13:40:42]  -> OMITIENDO: El adjunto 'MANUAL TÉCNICO GESTORDOCS (1).docx' ya fue registrado.
+[2025-09-13 13:40:43] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941e5f994fe021: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:40:43] Procesando mensaje ID: 19941d998e77e84d
+[2025-09-13 13:40:45]  -> OMITIENDO: El adjunto 'descarga (5).jpg' ya fue registrado.
+[2025-09-13 13:40:47] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941d998e77e84d: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:40:47] Procesando mensaje ID: 1993ccc66d3b858b
+[2025-09-13 13:40:49]  -> OMITIENDO: El adjunto 'prueba.png' ya fue registrado.
+[2025-09-13 13:40:50] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ccc66d3b858b: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:40:50] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 13:52:12] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 13:52:16] Se encontraron 1 usuarios para procesar.
+[2025-09-13 13:52:16] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 13:52:22] Se encontraron 5 correos.
+[2025-09-13 13:52:22] Procesando mensaje ID: 1994344d2177b343
+[2025-09-13 13:52:28]  -> OMITIENDO: El adjunto 'Listado de Requerimientos Gestión Documental v1.1 (GestorDocs)..-1.xlsx' ya fue registrado.
+[2025-09-13 13:52:33] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1994344d2177b343: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:52:33] Procesando mensaje ID: 19941eafbf1d6db6
+[2025-09-13 13:52:38]  -> OMITIENDO: El adjunto '0f04cef847f849303dacf5dcf693584a-removebg-preview.png' ya fue registrado.
+[2025-09-13 13:52:45] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941eafbf1d6db6: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:52:45] Procesando mensaje ID: 19941e5f994fe021
+[2025-09-13 13:52:54]  -> OMITIENDO: El adjunto 'MANUAL TÉCNICO GESTORDOCS (1).docx' ya fue registrado.
+[2025-09-13 13:53:00] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941e5f994fe021: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:53:00] Procesando mensaje ID: 19941d998e77e84d
+[2025-09-13 13:53:07]  -> OMITIENDO: El adjunto 'descarga (5).jpg' ya fue registrado.
+[2025-09-13 13:53:11] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941d998e77e84d: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:53:11] Procesando mensaje ID: 1993ccc66d3b858b
+[2025-09-13 13:53:15]  -> OMITIENDO: El adjunto 'prueba.png' ya fue registrado.
+[2025-09-13 13:53:19] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ccc66d3b858b: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 13:53:19] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 14:19:12] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 14:19:16] Se encontraron 1 usuarios para procesar.
+[2025-09-13 14:19:16] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 14:19:17] Se encontraron 4 correos.
+[2025-09-13 14:19:17] Procesando mensaje ID: 19941eafbf1d6db6
+[2025-09-13 14:19:19]  -> OMITIENDO: El adjunto '0f04cef847f849303dacf5dcf693584a-removebg-preview.png' ya fue registrado.
+[2025-09-13 14:19:20] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941eafbf1d6db6: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 14:19:20] Procesando mensaje ID: 19941e5f994fe021
+[2025-09-13 14:19:22]  -> OMITIENDO: El adjunto 'MANUAL TÉCNICO GESTORDOCS (1).docx' ya fue registrado.
+[2025-09-13 14:19:24] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941e5f994fe021: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 14:19:24] Procesando mensaje ID: 19941d998e77e84d
+[2025-09-13 14:19:25]  -> OMITIENDO: El adjunto 'descarga (5).jpg' ya fue registrado.
+[2025-09-13 14:19:26] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941d998e77e84d: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 14:19:26] Procesando mensaje ID: 1993ccc66d3b858b
+[2025-09-13 14:19:28]  -> OMITIENDO: El adjunto 'prueba.png' ya fue registrado.
+[2025-09-13 14:19:29] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ccc66d3b858b: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "method": "caribou.api.proto.MailboxService.ModifyMessage",
+          "service": "gmail.googleapis.com"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 14:19:29] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 14:22:02] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 14:22:05] Se encontraron 1 usuarios para procesar.
+[2025-09-13 14:22:05] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 14:22:06] Se encontraron 4 correos.
+[2025-09-13 14:22:06] Procesando mensaje ID: 19941eafbf1d6db6
+[2025-09-13 14:22:08]  -> OMITIENDO: El adjunto '0f04cef847f849303dacf5dcf693584a-removebg-preview.png' ya fue registrado.
+[2025-09-13 14:22:09] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941eafbf1d6db6: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 14:22:09] Procesando mensaje ID: 19941e5f994fe021
+[2025-09-13 14:22:11]  -> OMITIENDO: El adjunto 'MANUAL TÉCNICO GESTORDOCS (1).docx' ya fue registrado.
+[2025-09-13 14:22:12] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941e5f994fe021: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 14:22:12] Procesando mensaje ID: 19941d998e77e84d
+[2025-09-13 14:22:13]  -> OMITIENDO: El adjunto 'descarga (5).jpg' ya fue registrado.
+[2025-09-13 14:22:14] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941d998e77e84d: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 14:22:14] Procesando mensaje ID: 1993ccc66d3b858b
+[2025-09-13 14:22:16]  -> OMITIENDO: El adjunto 'prueba.png' ya fue registrado.
+[2025-09-13 14:22:17] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ccc66d3b858b: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 14:22:17] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 14:25:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 16:52:02] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 16:55:29] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 16:55:32] Se encontraron 1 usuarios para procesar.
+[2025-09-13 16:55:32] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 16:55:33] Se encontraron 4 correos.
+[2025-09-13 16:55:33] Procesando mensaje ID: 19941eafbf1d6db6
+[2025-09-13 16:55:35]  -> OMITIENDO: El adjunto '0f04cef847f849303dacf5dcf693584a-removebg-preview.png' ya fue registrado.
+[2025-09-13 16:55:36] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941eafbf1d6db6: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 16:55:36] Procesando mensaje ID: 19941e5f994fe021
+[2025-09-13 17:07:02] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 17:10:30] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 17:22:02] ===== INICIANDO PROCESO DE CORREOS =====
+[2025-09-13 17:22:05] Se encontraron 1 usuarios para procesar.
+[2025-09-13 17:22:05] 
+--- Procesando usuario ID: 2 ---
+[2025-09-13 17:22:06] Se encontraron 4 correos.
+[2025-09-13 17:22:06] Procesando mensaje ID: 19941eafbf1d6db6
+[2025-09-13 17:22:08]  -> OMITIENDO: El adjunto '0f04cef847f849303dacf5dcf693584a-removebg-preview.png' ya fue registrado.
+[2025-09-13 17:22:09] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941eafbf1d6db6: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 17:22:09] Procesando mensaje ID: 19941e5f994fe021
+[2025-09-13 17:22:11]  -> OMITIENDO: El adjunto 'MANUAL TÉCNICO GESTORDOCS (1).docx' ya fue registrado.
+[2025-09-13 17:22:12] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941e5f994fe021: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 17:22:12] Procesando mensaje ID: 19941d998e77e84d
+[2025-09-13 17:22:14]  -> OMITIENDO: El adjunto 'descarga (5).jpg' ya fue registrado.
+[2025-09-13 17:22:15] MARCAR_LEIDO: EXCEPCIÓN para mensaje 19941d998e77e84d: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 17:22:15] Procesando mensaje ID: 1993ccc66d3b858b
+[2025-09-13 17:22:16]  -> OMITIENDO: El adjunto 'prueba.png' ya fue registrado.
+[2025-09-13 17:22:17] MARCAR_LEIDO: EXCEPCIÓN para mensaje 1993ccc66d3b858b: {
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "errors": [
+      {
+        "message": "Insufficient Permission",
+        "domain": "global",
+        "reason": "insufficientPermissions"
+      }
+    ],
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "gmail.googleapis.com",
+          "method": "caribou.api.proto.MailboxService.ModifyMessage"
+        }
+      }
+    ]
+  }
+}
+
+[2025-09-13 17:22:17] ===== PROCESO FINALIZADO =====
+
+[2025-09-13 17:25:29] ===== INICIANDO PROCESO DE CORREOS =====

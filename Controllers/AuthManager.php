@@ -8,9 +8,9 @@ Durly Yuranni Sánchez Carillo
 Año: 2025
 SENA - CSET - ADSO
  ********************************************/
-require_once 'vendor/autoload.php';
+require_once ROOT_PATH . 'vendor/autoload.php';
 use Firebase\JWT\JWT;
-use Firebase\JWT\Key;
+
 
 class AuthManager extends Query {
     private $secret_key;
@@ -80,8 +80,7 @@ class AuthManager extends Query {
         }
         
         try {
-            $key = new Key($this->secret_key, 'HS256');
-            $decoded = JWT::decode($token, $key);
+            $decoded = JWT::decode($token, $this->secret_key, array('HS256'));
             
             if (empty($decoded->sub)) {
                 return [

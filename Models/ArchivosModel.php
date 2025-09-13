@@ -194,7 +194,7 @@ class ArchivosModel extends Query
         $resultado = $this->select($sql, [$id, $id_usuario]);
         return $resultado['filas_afectadas'] ?? 0;
     }
-        // Registra una notificación en la base de datos.
+    // Registra una notificación en la base de datos.
     public function registrarNotificacion($id_usuario, $id_carpeta, $nombre, $evento)
     {
         $sql = "SELECT id_notificacion_nueva, mensaje, exito FROM registrar_notificacion(?, ?, ?, ?)";
@@ -212,49 +212,72 @@ class ArchivosModel extends Query
         }
     }
 
-    // MÉTODOS DE PAGINACIÓN PARA ARCHIVOS
-
-    // Obtiene todos los archivos de un usuario paginados.
-    public function getPaginatedArchivos($id_usuario, $page = 1, $limit = 10)
+    // Obtiene el total de archivos de una carpeta específica.
+    public function getTotalArchivosCarpeta($id_carpeta)
     {
-        $offset = ($page - 1) * $limit;
-        $sql = "SELECT id, nombre, tipo, fecha_create, estado, elimina, id_carpeta, id_usuario, tamano 
-                FROM obtener_archivos_usuario_paginados(?, ?, ?)";
-        $archivos = $this->selectAll($sql, [$id_usuario, $limit, $offset]);
-
-        foreach ($archivos as &$archivo) {
-            $archivo['tamano_formateado'] = formatearTamano($archivo['tamano']);
-        }
-        return $archivos;
+        $sql = "SELECT total FROM obtener_total_archivos_carpeta(?)";
+        $resultado = $this->select($sql, [$id_carpeta]);
+        return $resultado['total'] ?? 0;
     }
 
-    // Obtiene el total de archivos de un usuario para calcular la paginación.
+
+    public function getArchivosPaginado($id_usuario, $page = 1, $limit = 15)
+    {
+        $offset = ($page - 1) * $limit;
+        $sql = "SELECT id, nombre, tipo, fecha_create, id_carpeta, tamano FROM obtener_archivos_paginado(?, ?, ?)";
+        return $this->selectAll($sql, [$id_usuario, $limit, $offset]);
+    }
+
     public function getTotalArchivos($id_usuario)
     {
-        $sql = "SELECT COUNT(*) as total FROM archivos WHERE id_usuario = ? AND estado = 1 AND id_carpeta IS NULL";
+        $sql = "SELECT total FROM obtener_total_archivos_usuario(?)";
         $resultado = $this->select($sql, [$id_usuario]);
         return $resultado['total'] ?? 0;
     }
 
-    // Obtiene archivos de una carpeta específica paginados.
-    public function getPaginatedArchivosCarpeta($id_carpeta, $page = 1, $limit = 10)
+
+    // Obtiene las carpetas del usuario de forma paginada
+    public function getCarpetasPaginado($id_usuario, $page = 1, $limit = 10)
     {
         $offset = ($page - 1) * $limit;
-        $sql = "SELECT id, nombre, tipo, fecha_create, estado, elimina, id_carpeta, id_usuario, tamano 
-                FROM obtener_archivos_carpeta_paginados(?, ?, ?)";
-        $archivos = $this->selectAll($sql, [$id_carpeta, $limit, $offset]);
-
-        foreach ($archivos as &$archivo) {
-            $archivo['tamano_formateado'] = formatearTamano($archivo['tamano']);
-        }
-        return $archivos;
+        $sql = "SELECT id, nombre, fecha_create, estado, elimina, id_usuario, id_carpeta_padre FROM obtener_carpetas_paginado(?, ?, ?)";
+        return $this->selectAll($sql, [$id_usuario, $limit, $offset]);
     }
 
-    // Obtiene el total de archivos de una carpeta específica.
-    public function getTotalArchivosCarpeta($id_carpeta)
+    // Obtiene el total de carpetas principales del usuario
+    public function getTotalCarpetas($id_usuario)
     {
-        $sql = "SELECT COUNT(*) as total FROM archivos WHERE id_carpeta = ? AND estado = 1";
-        $resultado = $this->select($sql, [$id_carpeta]);
+        $sql = "SELECT total FROM obtener_total_carpetas_usuario(?)";
+        $resultado = $this->select($sql, [$id_usuario]);
         return $resultado['total'] ?? 0;
+    }
+
+    // Funciones api google
+    public function getCarpetaPorNombre($id_usuario, $nombre)
+    {
+        $sql = "SELECT * FROM carpetas WHERE id_usuario = ? AND nombre = ? AND estado = 1";
+        return $this->select($sql, [$id_usuario, $nombre]);
+    }
+
+    public function crearCarpeta($id_usuario, $nombre)
+    {
+        $sql = "INSERT INTO carpetas (nombre, id_usuario) VALUES (?, ?)";
+        $data = $this->insertar($sql, [$nombre, $id_usuario]);
+        return $data; // Asumiendo que tu método insertar devuelve el nuevo ID.
+    }
+
+    public function registrarArchivo($nombre, $tipo, $id_carpeta, $id_usuario, $tamano, $messageId)
+    {
+        // Añadimos la nueva columna a la sentencia SQL
+        $sql = "INSERT INTO archivos (nombre, tipo, id_carpeta, id_usuario, tamano, gmail_message_id) VALUES (?, ?, ?, ?, ?, ?)";
+        $datos = [$nombre, $tipo, $id_carpeta, $id_usuario, $tamano, $messageId];
+        return $this->insertar($sql, $datos);
+    }
+
+    public function archivoYaExiste($messageId, $nombreArchivo)
+    {
+        $sql = "SELECT id FROM archivos WHERE gmail_message_id = ? AND nombre = ?";
+        $resultado = $this->select($sql, [$messageId, $nombreArchivo]);
+        return !empty($resultado);
     }
 }

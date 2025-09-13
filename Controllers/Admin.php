@@ -9,9 +9,9 @@ Durly Yuranni Sánchez Carillo
 Año: 2025                              
 SENA - CSET - ADSO                    
  ********************************************/
-require_once './Config/Config.php';
-require_once 'vendor/autoload.php';
-require_once 'AuthManager.php';
+require_once ROOT_PATH . 'Config/Config.php';
+require_once ROOT_PATH . 'vendor/autoload.php';
+require_once ROOT_PATH . 'Controllers/AuthManager.php';
 
 class Admin extends Controller
 {
@@ -37,30 +37,15 @@ class Admin extends Controller
         // Parámetros de paginación
         $page_carpetas = isset($_GET['page_carpetas']) ? max(1, intval($_GET['page_carpetas'])) : 1;
         $page_archivos = isset($_GET['page_archivos']) ? max(1, intval($_GET['page_archivos'])) : 1;
-        $limit_carpetas = 6;
-        $limit_archivos = 4;
+        $limit_carpetas = 3;
+        $limit_archivos = 6;
+
 
         // Obtener datos paginados
-        $carpetas = $this->model->getPaginatedCarpetasAll($page_carpetas, $limit_carpetas);
-        $archivos = $this->model->getPaginatedArchivosRecientesAll($page_archivos, $limit_archivos);
-
-        // Calcular información de paginación
-        $total_carpetas = $this->model->getTotalCarpetas();
-        $total_archivos = $this->model->getTotalArchivosRecientes();
-        
-        $data['pagination_carpetas'] = [
-            'current_page' => $page_carpetas,
-            'total_pages' => ceil($total_carpetas / $limit_carpetas),
-            'total_records' => $total_carpetas,
-            'limit' => $limit_carpetas
-        ];
-        
-        $data['pagination_archivos'] = [
-            'current_page' => $page_archivos,
-            'total_pages' => ceil($total_archivos / $limit_archivos),
-            'total_records' => $total_archivos,
-            'limit' => $limit_archivos
-        ];
+        $carpetas = $this->model->getCarpetasPaginado($this->id_usuario, $page_carpetas, $limit_carpetas);
+        $total_carpetas = $this->model->getTotalCarpetas($this->id_usuario);
+        $archivos = $this->model->getArchivosPaginado($this->id_usuario, $page_archivos, $limit_archivos);
+        $total_archivos = $this->model->getTotalArchivos($this->id_usuario);
 
         for ($i = 0; $i < count($carpetas); $i++) {
             $carpetas[$i]['color'] = substr(md5($carpetas[$i]['id']), 0, 6);
@@ -72,6 +57,23 @@ class Admin extends Controller
             $archivos[$i]['fecha'] = time_ago(strtotime($archivos[$i]['fecha_create']));
             $archivos[$i]['tamano_formateado'] = formatBytes($archivos[$i]['tamano']);
         }
+
+        // 5. Preparar estructuras de paginación y datos finales para la vista
+        $data['carpetas'] = $carpetas;
+        $data['pagination_carpetas'] = [
+            'current_page' => $page_carpetas,
+            'total_pages' => ceil($total_carpetas / $limit_carpetas),
+            'param_name' => 'page_carpetas'
+        ];
+
+        $data['archivos'] = $archivos;
+        $data['pagination_archivos'] = [
+            'current_page' => $page_archivos,
+            'total_pages' => ceil($total_archivos / $limit_archivos),
+            'param_name' => 'page_archivos'
+        ];
+
+
 
         $data['carpetas'] = $carpetas;
         $data['archivos'] = $archivos;
@@ -240,7 +242,7 @@ class Admin extends Controller
         // Valida que la entrada sea un número entero válido.
         if (!is_numeric($id_carpeta)) {
             http_response_code(404);
-            require_once 'Views/error.php';
+            require_once ROOT_PATH . 'Views/error.php';
             exit;
         }
 

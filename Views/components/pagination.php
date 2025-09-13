@@ -47,11 +47,13 @@ if (isset($extra_params) && is_array($extra_params)) {
 }
 
 // Función para construir URL con parámetros
-function buildPaginationUrl($page, $base_url, $param_name, $existing_params) {
-    $params = $existing_params;
-    $params[$param_name] = $page;
-    $query_string = http_build_query($params);
-    return $base_url . ($query_string ? '?' . $query_string : '');
+if (!function_exists('buildPaginationUrl')) {
+    function buildPaginationUrl($page, $base, $param, $existing)
+    {
+        $params = $existing;
+        $params[$param] = $page;
+        return $base . '?' . http_build_query($params);
+    }
 }
 
 // No mostrar paginación si solo hay una página

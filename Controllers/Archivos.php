@@ -9,10 +9,10 @@ Durly Yuranni Sánchez Carillo
 Año: 2025
 SENA - CSET - ADSO
  ********************************************/
-require_once './Config/Config.php';
-require_once './Config/Functions.php';
-require_once 'vendor/autoload.php';
-require_once 'AuthManager.php';
+require_once ROOT_PATH . 'Config/Config.php';
+require_once ROOT_PATH . 'Config/Functions.php';
+require_once ROOT_PATH . 'vendor/autoload.php';
+require_once ROOT_PATH . 'Controllers/AuthManager.php';
 
 class Archivos extends Controller
 {
@@ -27,53 +27,60 @@ class Archivos extends Controller
     }
 
     // Muestra la vista principal de archivos y carpetas del usuario.
-    public function index()
+public function index()
     {
-        $data['title'] = 'Archivos';
+        // 1. Definir variables para la plantilla
+        $data['title'] = 'Documentos';
         $data['script'] = 'files.js';
-        $data['active'] = 'archivos';
+        $data['active'] = 'archivos'; // Para resaltar el menú correcto
         $data['menu'] = 'archivos';
+        
+        // Se asume que $this->id_usuario y $this->correo ya están disponibles
+        $data['user'] = $this->model->getUsuario($this->id_usuario);
+        $data['shares'] = $this->model->verificarEstado($this->correo);
 
-        // Parámetros de paginación
-        $page = isset($_GET['page']) ? max(1, intval($_GET['page'])) : 1;
-        $limit = 10;
+        // 2. Configuración de ambas paginaciones
+        $page_carpetas = isset($_GET['page_carpetas']) ? max(1, intval($_GET['page_carpetas'])) : 1;
+        $page_archivos = isset($_GET['page_archivos']) ? max(1, intval($_GET['page_archivos'])) : 1;
+        $limit_carpetas = 6;
+        $limit_archivos = 6;
 
-        // Obtener datos paginados
-        $archivos = $this->model->getPaginatedArchivos($this->id_usuario, $page, $limit);
+        // 3. Obtener datos paginados
+        $carpetas = $this->model->getCarpetasPaginado($this->id_usuario, $page_carpetas, $limit_carpetas);
+        $total_carpetas = $this->model->getTotalCarpetas($this->id_usuario);
+        $archivos = $this->model->getArchivosPaginado($this->id_usuario, $page_archivos, $limit_archivos);
         $total_archivos = $this->model->getTotalArchivos($this->id_usuario);
 
-        // Calcular información de paginación
-        $data['pagination'] = [
-            'current_page' => $page,
-            'total_pages' => ceil($total_archivos / $limit),
-            'total_records' => $total_archivos,
-            'limit' => $limit
-        ];
-
-        foreach ($archivos as $key => $archivo) {
-            $archivos[$key]['fecha'] = time_ago(strtotime($archivo['fecha_create']));
-            $archivos[$key]['tamano_formateado'] = formatBytes($archivo['tamano']);
-        }
-
-        $carpetas = $this->model->getCarpetas($this->id_usuario);
+        // 4. Procesar los datos (¡ESTE PASO ES CLAVE!)
         for ($i = 0; $i < count($carpetas); $i++) {
             $carpetas[$i]['color'] = substr(md5($carpetas[$i]['id']), 0, 6);
             $carpetas[$i]['fecha'] = time_ago(strtotime($carpetas[$i]['fecha_create']));
         }
 
+        for ($i = 0; $i < count($archivos); $i++) {
+            $archivos[$i]['color'] = substr(md5($archivos[$i]['id']), 0, 6);
+            $archivos[$i]['fecha'] = time_ago(strtotime($archivos[$i]['fecha_create']));
+            $archivos[$i]['tamano_formateado'] = formatBytes($archivos[$i]['tamano']);
+        }
+
+        // 5. Preparar estructuras de paginación y datos finales para la vista
         $data['carpetas'] = $carpetas;
-        $data['archivos'] = $archivos;
-        $data['shares'] = $this->model->verificarEstado($this->correo);
-        $data['user'] = [
-            'nombre' => $this->getNombreUsuario(),
-            'correo' => $this->correo,
-            'avatar' => $this->getAvatarUsuario(),
-            'rol' => $this->rol
+        $data['pagination_carpetas'] = [
+            'current_page' => $page_carpetas,
+            'total_pages' => ceil($total_carpetas / $limit_carpetas),
+            'param_name' => 'page_carpetas'
         ];
 
+        $data['archivos'] = $archivos;
+        $data['pagination_archivos'] = [
+            'current_page' => $page_archivos, 
+            'total_pages' => ceil($total_archivos / $limit_archivos),
+            'param_name' => 'page_archivos'
+        ];
+        
+        // 6. Cargar la vista
         $this->views->getView('archivos', 'index', $data);
     }
-
     // Valida un token JWT para autenticar al usuario.
     private function validarToken()
     {
@@ -279,7 +286,7 @@ class Archivos extends Controller
     }
 
     // Elimina una carpeta, marcándola para ser borrada permanentemente en 30 días.
-        public function eliminarCarpeta($id)
+    public function eliminarCarpeta($id)
     {
         if (empty($id)) {
             $res = array('tipo' => 'warning', 'mensaje' => 'ID de carpeta no proporcionado');

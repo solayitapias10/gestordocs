@@ -10,9 +10,9 @@ Año: 2025
 SENA - CSET - ADSO                    
  ********************************************/
 
-require_once './Config/Config.php';
-require_once 'vendor/autoload.php';
-require_once 'AuthManager.php';
+require_once ROOT_PATH . 'Config/Config.php';
+require_once ROOT_PATH . 'vendor/autoload.php';
+require_once ROOT_PATH . 'Controllers/AuthManager.php';
 
 class Usuarios extends Controller
 {

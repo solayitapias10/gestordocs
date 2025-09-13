@@ -4,13 +4,13 @@
 Archivo php usuarios/perfil.php                         
 Creado por el equipo Gaes 1:            
 Anyi Solayi Tapias                  
-Sharit Delgado Pinzón               
-Durly Yuranni Sánchez Carillo       
-Año: 2025                              
+Sharit Delgado PinzÃ³n               
+Durly Yuranni SÃ¡nchez Carillo       
+AÃ±o: 2025                              
 SENA - CSET - ADSO                    
  ********************************************/
 
-// Incluye la cabecera de la página
+// Incluye la cabecera de la pÃ¡gina
 include_once 'Views/template/header.php';
 ?>
 
@@ -20,10 +20,10 @@ include_once 'Views/template/header.php';
             <div class="row">
                 <div class="col">
                     <div class="page-description page-description-tabbed">
-                        <!-- Título de la página -->
+                        <!-- TÃ­tulo de la pÃ¡gina -->
                         <h1><?php echo htmlspecialchars($data['title']); ?></h1>
 
-                        <!-- Pestañas de navegación -->
+                        <!-- PestaÃ±as de navegaciÃ³n -->
                         <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="personal-tab" data-bs-toggle="tab" data-bs-target="#personal" type="button" role="tab" aria-controls="personal" aria-selected="true">Datos Personales</button>
@@ -34,6 +34,9 @@ include_once 'Views/template/header.php';
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="avatar-tab" data-bs-toggle="tab" data-bs-target="#avatar" type="button" role="tab" aria-controls="avatar" aria-selected="false">Avatar</button>
                             </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="integraciones-tab" data-bs-toggle="tab" data-bs-target="#integraciones" type="button" role="tab" aria-controls="integraciones" aria-selected="false">Integraciones</button>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -41,7 +44,7 @@ include_once 'Views/template/header.php';
             <div class="row">
                 <div class="col">
                     <div class="tab-content" id="myTabContent">
-                        <!-- Pestaña de datos personales -->
+                        <!-- PestaÃ±a de datos personales -->
                         <div class="tab-pane fade show active" id="personal" role="tabpanel" aria-labelledby="personal-tab">
                             <div class="card">
                                 <div class="card-body">
@@ -65,19 +68,19 @@ include_once 'Views/template/header.php';
                                         <div class="row m-t-lg">
                                             <!-- Campo para el correo (SOLO LECTURA) -->
                                             <div class="col-md-6">
-                                                <label for="inputCorreo" class="form-label">Correo electrónico</label>
+                                                <label for="inputCorreo" class="form-label">Correo electrÃ³nico</label>
                                                 <input type="email" class="form-control form-control-solid-bordered" id="inputCorreo" name="correo" value="<?php echo htmlspecialchars($data['usuario']['correo']); ?>" readonly>
-                                                <div class="form-text">El correo electrónico no se puede modificar por seguridad.</div>
+                                                <div class="form-text">El correo electrÃ³nico no se puede modificar por seguridad.</div>
                                             </div>
-                                            <!-- Campo para el teléfono -->
+                                            <!-- Campo para el telÃ©fono -->
                                             <div class="col-md-6">
-                                                <label for="inputTelefono" class="form-label">Teléfono</label>
+                                                <label for="inputTelefono" class="form-label">Telofono</label>
                                                 <input type="tel" class="form-control" id="inputTelefono" name="telefono" value="<?php echo htmlspecialchars($data['usuario']['telefono']); ?>" placeholder="(xxx) xxx-xxxx" required>
                                             </div>
                                         </div>
 
                                         <div class="row m-t-lg">
-                                            <!-- Campo para la dirección -->
+                                            <!-- Campo para la direcciÃ³n -->
                                             <div class="col-md-12">
                                                 <label for="inputDireccion" class="form-label">Dirección</label>
                                                 <input type="text" class="form-control" id="inputDireccion" name="direccion" value="<?php echo htmlspecialchars($data['usuario']['direccion']); ?>" required>
@@ -86,7 +89,7 @@ include_once 'Views/template/header.php';
 
                                         <div class="row m-t-lg">
                                             <div class="col">
-                                                <!-- Botón para actualizar datos -->
+                                                <!-- BotÃ³n para actualizar datos -->
                                                 <button type="submit" class="btn btn-dark">
                                                     <i class="material-icons">save</i>
                                                     Actualizar
@@ -98,15 +101,15 @@ include_once 'Views/template/header.php';
                             </div>
                         </div>
 
-                        <!-- Pestaña de seguridad -->
+                        <!-- PestaÃ±a de seguridad -->
                         <div class="tab-pane fade" id="seguridad" role="tabpanel" aria-labelledby="seguridad-tab">
                             <div class="card">
                                 <div class="card-body">
                                     <form id="formClave" method="post">
                                         <div class="row">
-                                            <!-- Campo para la contraseña actual -->
+                                            <!-- Campo para la contraseÃ±a actual -->
                                             <div class="col-md-6">
-                                                <label for="inputClaveActual" class="form-label">Contraseña Actual</label>
+                                                <label for="inputClaveActual" class="form-label">ContraseÃ±a Actual</label>
                                                 <div class="input-group">
                                                     <input type="password" class="form-control" id="inputClaveActual" name="claveActual" required>
                                                     <button class="btn btn-outline-secondary" type="button" onclick="togglePassword('inputClaveActual', this)">
@@ -117,25 +120,25 @@ include_once 'Views/template/header.php';
                                         </div>
 
                                         <div class="row m-t-lg">
-                                            <!-- Campo para la nueva contraseña -->
+                                            <!-- Campo para la nueva contraseÃ±a -->
                                             <div class="col-md-6">
-                                                <label for="inputClaveNueva" class="form-label">Nueva Contraseña</label>
+                                                <label for="inputClaveNueva" class="form-label">Nueva ContraseÃ±a</label>
                                                 <div class="input-group">
                                                     <input type="password" class="form-control" id="inputClaveNueva" name="claveNueva"
                                                         pattern="^(?=.*[A-Z]).{8,}$"
-                                                        title="La contraseña debe tener al menos 8 caracteres y una letra mayúscula"
+                                                        title="La contraseÃ±a debe tener al menos 8 caracteres y una letra mayÃºscula"
                                                         required>
                                                     <button class="btn btn-outline-secondary" type="button" onclick="togglePassword('inputClaveNueva', this)">
                                                         <i class="material-icons">visibility</i>
                                                     </button>
                                                 </div>
                                                 <div class="form-text">
-                                                    La contraseña debe tener al menos 8 caracteres y una letra mayúscula.
+                                                    La contraseÃ±a debe tener al menos 8 caracteres y una letra mayÃºscula.
                                                 </div>
                                             </div>
-                                            <!-- Campo para confirmar la nueva contraseña -->
+                                            <!-- Campo para confirmar la nueva contraseÃ±a -->
                                             <div class="col-md-6">
-                                                <label for="inputClaveConfirmar" class="form-label">Confirmar Nueva Contraseña</label>
+                                                <label for="inputClaveConfirmar" class="form-label">Confirmar Nueva ContraseÃ±a</label>
                                                 <div class="input-group">
                                                     <input type="password" class="form-control" id="inputClaveConfirmar" name="claveConfirmar" required>
                                                     <button class="btn btn-outline-secondary" type="button" onclick="togglePassword('inputClaveConfirmar', this)">
@@ -143,14 +146,14 @@ include_once 'Views/template/header.php';
                                                     </button>
                                                 </div>
                                                 <div class="form-text">
-                                                    Debe coincidir con la nueva contraseña.
+                                                    Debe coincidir con la nueva contraseÃ±a.
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="row m-t-lg">
                                             <div class="col">
-                                                <!-- Botón para cambiar contraseña -->
+                                                <!-- BotÃ³n para cambiar contraseÃ±a -->
                                                 <button type="submit" class="btn btn-dark">
                                                     <i class="material-icons">key</i>
                                                     Cambiar
@@ -162,7 +165,7 @@ include_once 'Views/template/header.php';
                             </div>
                         </div>
 
-                        <!-- Pestaña de avatar -->
+                        <!-- PestaÃ±a de avatar -->
                         <div class="tab-pane fade" id="avatar" role="tabpanel" aria-labelledby="avatar-tab">
                             <div class="row">
                                 <div class="col-md-6">
@@ -199,7 +202,7 @@ include_once 'Views/template/header.php';
                                                     </div>
                                                 </div>
                                                 <div class="text-end">
-                                                    <!-- Botón para actualizar avatar -->
+                                                    <!-- BotÃ³n para actualizar avatar -->
                                                     <button type="submit" class="btn btn-primary">
                                                         <i class="material-icons">photo_camera</i>
                                                         Actualizar Avatar
@@ -211,17 +214,40 @@ include_once 'Views/template/header.php';
                                 </div>
                             </div>
                         </div>
+
+                        <!-- PestaÃ±a de integraciones -->
+                        <div class="tab-pane fade" id="integraciones" role="tabpanel" aria-labelledby="integraciones-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5 class="card-title">Integraciones</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Conexión con Gmail</h5>
+                                            <p class="card-text">
+                                                Conecta tu cuenta de Gmail para permitir que GestorDocs lea y archive automáticamente los archivos adjuntos de correos importantes (como facturas).
+                                            </p>
+                                            <a href="<?php echo BASE_URL; ?>google/conectar" class="btn btn-primary">
+                                                <img src="<?php echo BASE_URL; ?>Assets/images/icons/google.png" alt="Google" width="20" class="me-2">
+                                                Conectar con Gmail
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Contenedor para mensajes dinámicos -->
+            <!-- Contenedor para mensajes dinÃ¡micos -->
             <div class="row mt-3" id="mensajeContainer"></div>
         </div>
     </div>
 </div>
 
 <?php
-// Incluye el pie de página
+// Incluye el pie de pÃ¡gina
 include_once 'Views/template/footer.php';
 ?>

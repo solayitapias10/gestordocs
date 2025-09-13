@@ -11,7 +11,7 @@ SENA - CSET - ADSO
  ********************************************/
 
 
-require_once './Services/email_service.php';
+require_once ROOT_PATH . 'Services/email_service.php';
 class UsuariosModel extends Query
 {
     // Prepara la clase
@@ -31,9 +31,10 @@ class UsuariosModel extends Query
     }
 
     // Obtiene los datos de un usuario por su ID
+    // Agregar este método a UsuariosModel.php
     public function getUsuario($id)
     {
-        $sql = "SELECT id, nombre, apellido, correo, telefono, direccion, clave, estado, rol, avatar, fecha,fecha_ultimo_cambio_clave FROM obtener_usuario_por_id(?)";
+        $sql = "SELECT id, nombre, apellido, correo, telefono, direccion, clave, estado, rol, avatar, fecha, fecha_ultimo_cambio_clave, google_access_token, google_refresh_token FROM usuarios WHERE id = ? AND estado = 1";
         $datos = array($id);
         return $this->select($sql, $datos);
     }
@@ -386,5 +387,21 @@ class UsuariosModel extends Query
             error_log("Error general en actualizarAvatar(): " . $e->getMessage());
             return false;
         }
+    }
+
+    //Funcion con api google
+    public function actualizarAccessToken($id_usuario, $accessTokenJson)
+    {
+        $sql = "UPDATE usuarios SET google_access_token = ? WHERE id = ?";
+        $datos = array($accessTokenJson, $id_usuario);
+        return $this->save($sql, $datos);
+    }
+
+    public function getUsuariosConGoogleConectado()
+    {
+        $sql = "SELECT id, correo, google_access_token, google_refresh_token 
+            FROM usuarios 
+            WHERE google_access_token IS NOT NULL";
+        return $this->selectAll($sql);
     }
 }

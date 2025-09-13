@@ -11,8 +11,8 @@ SENA - CSET - ADSO
  ********************************************/
 
 // Controlador para gestionar archivos compartidos
-require_once './Config/Config.php';
-require_once 'vendor/autoload.php';
+require_once ROOT_PATH . 'Config/Config.php';
+require_once ROOT_PATH . 'vendor/autoload.php';
 
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
@@ -362,8 +362,8 @@ class Compartidos extends Controller
         }
 
         try {
-            $key = new Key(SECRET_KEY, 'HS256');
-            $decoded = JWT::decode($token, $key);
+            // CORREGIDO: Sintaxis para firebase/php-jwt v3.0.0
+            $decoded = JWT::decode($token, SECRET_KEY, array('HS256'));
 
             $this->id_usuario = $decoded->sub ?? null;
             $this->correo = $decoded->correo ?? '';

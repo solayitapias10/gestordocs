@@ -15,8 +15,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require_once 'vendor/autoload.php';
-require_once './Config/Config.php';
+require_once ROOT_PATH .'vendor/autoload.php';
+require_once ROOT_PATH . 'Config/Config.php';
 
 class EmailService
 {

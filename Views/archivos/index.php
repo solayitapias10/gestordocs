@@ -65,6 +65,13 @@ include_once 'Views/template/header.php';
                 <?php } ?>
             </div>
 
+            <!-- Paginación para carpetas -->
+            <?php
+            $pagination = $data['pagination_carpetas'];
+            $param_name = 'page_carpetas';
+            include_once 'Views/components/pagination.php';
+            ?>
+
             <div class="section-description">
                 <h1>Documentos</h1>
             </div>
@@ -100,11 +107,13 @@ include_once 'Views/template/header.php';
             </div>
 
             <!-- Paginación para archivos -->
-            <?php 
-            $pagination = $data['pagination'];
-            $param_name = 'page';
-            include_once 'Views/components/pagination.php';
-            ?>
+                    <?php
+                    if (isset($data['pagination_archivos']) && $data['pagination_archivos']['total_pages'] > 1) {
+                        $pagination = $data['pagination_archivos'];
+                        $param_name = 'page_archivos'; // Asegura el parámetro correcto
+                        include 'Views/components/pagination.php';
+                    }
+                    ?>
 
             <input type="hidden" id="id_carpeta" value="">
 
