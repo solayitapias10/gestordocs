@@ -86,7 +86,7 @@ public function solicitar()
     }
 
     // Verificar si el usuario existe
-    $usuario = $this->model->getUsuario($correo);
+    $usuario = $this->model->getUsuarioCorreo($correo);
     if (!$usuario) {
         // Por seguridad, siempre devolver éxito aunque el correo no exista
         $res = array(

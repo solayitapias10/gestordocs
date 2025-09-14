@@ -23,215 +23,94 @@ class UsuariosModel extends Query
         $this->emailService = new EmailService();
     }
 
-    // Obtiene todos los usuarios con estado activo
-    public function getUsuarios()
-    {
-        $sql = "SELECT id, nombre, apellido, correo, telefono, direccion, clave, rol, estado, fecha FROM obtener_todos_usuarios()";
-        return $this->selectAll($sql);
-    }
 
-    // Obtiene los datos de un usuario por su ID
-    // Agregar este método a UsuariosModel.php
-    public function getUsuario($id)
+    // 1. Obtiene los datos de un usuario por su ID
+    public function getUsuario($correo)
     {
-        $sql = "SELECT id, nombre, apellido, correo, telefono, direccion, clave, estado, rol, avatar, fecha, fecha_ultimo_cambio_clave, google_access_token, google_refresh_token FROM usuarios WHERE id = ? AND estado = 1";
-        $datos = array($id);
+        $sql = "SELECT id, nombre, apellido, correo, telefono, direccion, clave, estado, rol, avatar, fecha, fecha_ultimo_cambio_clave FROM fun_obtenerusuarioporcorreo(?)";
+        $datos = array($correo);
         return $this->select($sql, $datos);
     }
 
-    // Verifica si un item (correo, telefono, etc.) ya existe en la base de datos para un usuario
+    // 2. Obtiene todos los usuarios con estado activo
+    public function getUsuarios($valor, $id_usuario)
+    {
+        $sql = "SELECT id, nombre, apellido, correo, telefono, direccion, rol, estado, fecha,avatar FROM fun_buscarusuariosporcorreo(?, ?)";
+        return $this->selectAll($sql, [$valor, $id_usuario]);
+    }
+
+    // 3. Verifica si un item (correo, telefono, etc.) ya existe en la base de datos para un usuario
     public function getVerificar($item, $nombre, $id)
     {
-        $sql = "SELECT id FROM verificar_campo_usuario(?, ?, ?)";
+        $sql = "SELECT id FROM fun_verificarcampo(?, ?, ?)";
         $datos = array($item, $nombre, $id);
         return $this->select($sql, $datos);
     }
 
-    // Registra un nuevo usuario en la base de datos
+    // 4. Registra un nuevo usuario en la base de datos
     public function registrar($nombre, $apellido, $correo, $telefono, $direccion, $clave, $rol)
     {
-        try {
-            $sql = "SELECT * FROM registrar_usuario(?, ?, ?, ?, ?, ?, ?)";
-            $datos = array($nombre, $apellido, $correo, $telefono, $direccion, $clave, $rol);
-            $resultado = $this->select($sql, $datos);
-
-            if (!$resultado) {
-                error_log("No se recibió resultado del procedimiento almacenado registrar_usuario");
-                return false;
-            }
-
-            if (isset($resultado['success']) && $resultado['success'] === true) {
-                return $resultado['id_usuario_creado'];
-            } else {
-                $mensaje = isset($resultado['mensaje']) ? $resultado['mensaje'] : 'Error desconocido al registrar usuario';
-                error_log("Error en registrar_usuario: " . $mensaje);
-                throw new Exception($mensaje);
-            }
-        } catch (PDOException $e) {
-            error_log("Error PDO en registrar(): " . $e->getMessage());
-            throw new Exception("Error en la base de datos: " . $e->getMessage());
-        } catch (Exception $e) {
-            error_log("Error general en registrar(): " . $e->getMessage());
-            throw new Exception($e->getMessage());
-        }
+        $sql = "SELECT success, mensaje, id_usuario_creado FROM fun_registrarusuario(?, ?, ?, ?, ?, ?, ?)";
+        $datos = array($nombre, $apellido, $correo, $telefono, $direccion, $clave, $rol);
+        $resultado = $this->select($sql, $datos);
+        return $resultado;
     }
 
-    // Modifica los datos de un usuario existente
+    // 5. Modifica los datos de un usuario existente
     public function modificar($nombre, $apellido, $correo, $telefono, $direccion, $rol, $id)
     {
-        try {
-            $sql = "SELECT * FROM modificar_usuario(?, ?, ?, ?, ?, ?, ?)";
-            $datos = array($id, $nombre, $apellido, $correo, $telefono, $direccion, $rol);
-            $resultado = $this->select($sql, $datos);
-
-            if (!$resultado) {
-                error_log("No se recibió resultado del procedimiento almacenado modificar_usuario");
-                return false;
-            }
-
-            if (isset($resultado['success']) && $resultado['success'] === true) {
-                return 1;
-            } else {
-                $mensaje = isset($resultado['mensaje']) ? $resultado['mensaje'] : 'Error desconocido al modificar usuario';
-                error_log("Error en modificar_usuario: " . $mensaje);
-                throw new Exception($mensaje);
-            }
-        } catch (PDOException $e) {
-            error_log("Error PDO en modificar(): " . $e->getMessage());
-            throw new Exception("Error en la base de datos: " . $e->getMessage());
-        } catch (Exception $e) {
-            error_log("Error general en modificar(): " . $e->getMessage());
-            throw new Exception($e->getMessage());
-        }
+        $sql = "SELECT success, mensaje, id_usuario_modificado FROM fun_modificarusuario(?, ?, ?, ?, ?, ?, ?)";
+        $datos = array($id, $nombre, $apellido, $correo, $telefono, $direccion, $rol);
+        return $this->save($sql, $datos);
     }
 
-    // Cambia el estado de un usuario (activo/inactivo)
+    // 6. Cambia el estado de un usuario (activo/inactivo)
     public function delete($id)
     {
-        try {
-            $sql = "SELECT * FROM cambiar_estado_usuario(?)";
-            $datos = array($id);
-            $resultado = $this->select($sql, $datos);
-
-            if (!$resultado) {
-                error_log("No se recibió resultado del procedimiento almacenado cambiar_estado_usuario");
-                return false;
-            }
-
-            if (isset($resultado['success']) && $resultado['success'] === true) {
-                return 1;
-            } else {
-                $mensaje = isset($resultado['mensaje']) ? $resultado['mensaje'] : 'Error desconocido al cambiar estado del usuario';
-                error_log("Error en cambiar_estado_usuario: " . $mensaje);
-                return false;
-            }
-        } catch (PDOException $e) {
-            error_log("Error PDO en delete(): " . $e->getMessage());
-            return false;
-        } catch (Exception $e) {
-            error_log("Error general en delete(): " . $e->getMessage());
-            return false;
-        }
+        $sql = "SELECT success, mensaje, estado_anterior, estado_nuevo FROM fun_cambiarestadousuario(?)";
+        $datos = array($id);
+        $resultado = $this->select($sql, $datos);
+        return $resultado;
     }
 
-
-    // Cuenta los archivos compartidos de un usuario específico por su correo
+    // 7. Cuenta los archivos compartidos de un usuario específico por su correo
     public function verificarEstado($correo)
     {
-        try {
-            $sql = "SELECT * FROM verificar_estado_solicitudes_compartidos(?)";
-            $datos = array($correo);
-            $resultado = $this->select($sql, $datos);
-
-            if (!$resultado) {
-                error_log("No se recibió resultado del procedimiento almacenado verificar_estado_solicitudes_compartidos");
-                return ['total' => 0];
-            }
-            return [
-                'total' => $resultado['total'],
-                'correo' => $resultado['correo'],
-                'mensaje' => $resultado['mensaje']
-            ];
-        } catch (PDOException $e) {
-            error_log("Error PDO en verificarEstado(): " . $e->getMessage());
-            return ['total' => 0];
-        } catch (Exception $e) {
-            error_log("Error general en verificarEstado(): " . $e->getMessage());
-            return ['total' => 0];
-        }
+        $sql = "SELECT total FROM fun_verificarestadosolicitudescompartidas(?)";
+        $resultado = $this->select($sql, [$correo]);
+        return $resultado;
     }
 
-    // Actualiza los datos de perfil de un usuario
+    // 8. Actualiza los datos de perfil de un usuario
     public function actualizarPerfil($nombre, $apellido, $correo, $telefono, $direccion, $id)
     {
-        try {
-            $sql = "SELECT * FROM actualizar_perfil_usuario(?, ?, ?, ?, ?, ?)";
-            $datos = array($id, $nombre, $apellido, $correo, $telefono, $direccion);
-            $resultado = $this->select($sql, $datos);
-
-            if (!$resultado) {
-                error_log("No se recibió resultado del procedimiento almacenado actualizar_perfil_usuario");
-                return false;
-            }
-
-            if (isset($resultado['success']) && $resultado['success'] === true) {
-                return 1;
-            } else {
-                $mensaje = isset($resultado['mensaje']) ? $resultado['mensaje'] : 'Error desconocido al actualizar perfil';
-                error_log("Error en actualizar_perfil_usuario: " . $mensaje);
-                throw new Exception($mensaje);
-            }
-        } catch (PDOException $e) {
-            error_log("Error PDO en actualizarPerfil(): " . $e->getMessage());
-            throw new Exception("Error en la base de datos: " . $e->getMessage());
-        } catch (Exception $e) {
-            error_log("Error general en actualizarPerfil(): " . $e->getMessage());
-            throw new Exception($e->getMessage());
-        }
+        $sql = "SELECT id, nombre, apellido, correo, telefono, direccion FROM fun_actualizarperfil(?, ?, ?, ?, ?, ?)";
+        $datos = array($id, $nombre, $apellido, $correo, $telefono, $direccion);
+        $resultado = $this->select($sql, $datos);
+        return $resultado;
     }
 
-    // Cambia la contraseña de un usuario
+    // 9. Cambia la contraseña de un usuario
     public function cambiarClave($clave, $id)
     {
-        try {
-            $sql = "SELECT * FROM cambiar_clave_usuario(?, ?)";
-            $datos = array($id, $clave);
-            $resultado = $this->select($sql, $datos);
-
-            if (!$resultado) {
-                error_log("No se recibió resultado del procedimiento almacenado cambiar_clave_usuario");
-                return false;
-            }
-
-            if (isset($resultado['success']) && $resultado['success'] === true) {
-                return 1;
-            } else {
-                $mensaje = isset($resultado['mensaje']) ? $resultado['mensaje'] : 'Error desconocido al cambiar contraseña';
-                error_log("Error en cambiar_clave_usuario: " . $mensaje);
-                throw new Exception($mensaje);
-            }
-        } catch (PDOException $e) {
-            error_log("Error PDO en cambiarClave(): " . $e->getMessage());
-            throw new Exception("Error en la base de datos: " . $e->getMessage());
-        } catch (Exception $e) {
-            error_log("Error general en cambiarClave(): " . $e->getMessage());
-            throw new Exception($e->getMessage());
-        }
+        $sql = "SELECT id, success, mensaje FROM fun_cambiarclave(?, ?)";
+        $datos = array($id, $clave);
+        $resultado = $this->select($sql, $datos);
+        return $resultado;
     }
 
-    // Obtiene todas las solicitudes de registro pendientes
+    // 10. Obtiene todas las solicitudes de registro pendientes
     public function getUsuariosSolicitados()
     {
-        $sql = "SELECT id, nombre, apellido, correo, telefono, direccion, fecha FROM obtener_solicitudes_pendientes ()";
+        $sql = "SELECT id, nombre, apellido, correo, telefono, direccion, fecha FROM fun_obtenersolicitudes()";
         return $this->selectAll($sql);
     }
 
-
-    // Procesa y aprueba una solicitud de registro, creando un nuevo usuario
+    // 11. Procesa y aprueba una solicitud de registro, creando un nuevo usuario
     public function aprobarSolicitud($id_solicitud, $id_admin)
     {
         try {
-            $sql = "SELECT * FROM aprobar_solicitud_registro(?, ?)";
+            $sql = "SELECT * FROM fun_aprobarsolicitud(?, ?)";
             $resultado = $this->select($sql, [$id_solicitud, $id_admin]);
 
             if (!$resultado) {
@@ -294,7 +173,7 @@ class UsuariosModel extends Query
         }
     }
 
-    // Procesa y rechaza una solicitud de registro
+    // 12. Procesa y rechaza una solicitud de registro
     public function rechazarSolicitud($id_solicitud, $id_admin)
     {
         try {
@@ -309,7 +188,7 @@ class UsuariosModel extends Query
             }
 
             // Llamar al procedimiento almacenado
-            $sql = "SELECT * FROM rechazar_solicitud_registro(?, ?)";
+            $sql = "SELECT * FROM fun_rechazarsolicitud(?, ?)";
             $resultado = $this->select($sql, [$id_solicitud, $id_admin]);
 
             if (!$resultado) {
@@ -354,54 +233,34 @@ class UsuariosModel extends Query
         }
     }
 
+    // 13. Verifica si una solicitud de registro está pendiente
     public function verificarSolicitudPendiente($id_solicitud)
     {
-        $sql = "SELECT id, nombre, apellido, correo, telefono, direccion, clave, fecha_solicitud, estado, id_usuario_admin, fecha_procesado FROM verificar_solicitud_pendiente(?)";
+        $sql = "SELECT id, nombre, apellido, correo, telefono, direccion, clave, fecha_solicitud, estado, id_usuario_admin, fecha_procesado FROM fun_verificarsolicitudpendiente(?)";
         return $this->select($sql, [$id_solicitud]);
     }
 
-    // Actualiza la ruta del avatar de un usuario
+    // 14. Actualiza la ruta del avatar de un usuario
     public function actualizarAvatar($id, $ruta_avatar)
     {
-        try {
-            $sql = "SELECT * FROM actualizar_avatar_usuario(?, ?)";
-            $datos = array($id, $ruta_avatar);
-            $resultado = $this->select($sql, $datos);
-
-            if (!$resultado) {
-                error_log("No se recibió resultado del procedimiento almacenado actualizar_avatar_usuario");
-                return false;
-            }
-
-            if (isset($resultado['success']) && $resultado['success'] === true) {
-                return 1;
-            } else {
-                $mensaje = isset($resultado['mensaje']) ? $resultado['mensaje'] : 'Error desconocido al actualizar avatar';
-                error_log("Error en actualizar_avatar_usuario: " . $mensaje);
-                return false;
-            }
-        } catch (PDOException $e) {
-            error_log("Error PDO en actualizarAvatar(): " . $e->getMessage());
-            return false;
-        } catch (Exception $e) {
-            error_log("Error general en actualizarAvatar(): " . $e->getMessage());
-            return false;
-        }
+        $sql = "SELECT * FROM fun_actualizaravatarusuario(?, ?)";
+        $datos = array($id, $ruta_avatar);
+        $resultado = $this->select($sql, $datos);
+        return $resultado;
     }
 
-    //Funcion con api google
+    // 15. Actualiza el token de acceso de Google para un usuario específico en la base de datos.
     public function actualizarAccessToken($id_usuario, $accessTokenJson)
     {
-        $sql = "UPDATE usuarios SET google_access_token = ? WHERE id = ?";
-        $datos = array($accessTokenJson, $id_usuario);
+        $sql = "SELECT fun_actualizartokenaccesousuario(?, ?)";
+        $datos = array($id_usuario, $accessTokenJson);
         return $this->save($sql, $datos);
     }
 
+    // 16. Obtiene una lista de usuarios que tienen conectada su cuenta de Google, incluyendo sus tokens de acceso y actualización.
     public function getUsuariosConGoogleConectado()
     {
-        $sql = "SELECT id, correo, google_access_token, google_refresh_token 
-            FROM usuarios 
-            WHERE google_access_token IS NOT NULL";
+        $sql = "SELECT id_usuario, google_access_token, google_refresh_token FROM fun_obtenerusuariosgoogle()";
         return $this->selectAll($sql);
     }
 }

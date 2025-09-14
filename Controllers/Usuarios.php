@@ -71,7 +71,7 @@ class Usuarios extends Controller
     // Obtiene y lista todos los usuarios en formato JSON
     public function listar()
     {
-        $data = $this->model->getUsuarios();
+        $data = $this->model->getUsuarios('', $this->id_usuario);
         $usuarios = [];
         foreach ($data as $usuario) {
             $registro = [
